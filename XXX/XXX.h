@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface XXX : NSObject
-
+- (void)ff;
 @end

@@ -10,8 +10,6 @@
 		C4878DDD208490C200EC289F /* DLANControlPointService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DDB208490C200EC289F /* DLANControlPointService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4878DFF208491BC00EC289F /* AAA.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DFD208491BC00EC289F /* AAA.h */; };
 		C4878E00208491BC00EC289F /* AAA.m in Sources */ = {isa = PBXBuildFile; fileRef = C4878DFE208491BC00EC289F /* AAA.m */; };
-		C4878E06208493EF00EC289F /* libXXX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4878E05208493EF00EC289F /* libXXX.a */; };
-		C4878E0B2084960100EC289F /* XXX.m in Sources */ = {isa = PBXBuildFile; fileRef = C4878E0A2084960100EC289F /* XXX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +42,6 @@
 		C4878DF42084916C00EC289F /* libXXX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXXX.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4878DFD208491BC00EC289F /* AAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAA.h; sourceTree = "<group>"; };
 		C4878DFE208491BC00EC289F /* AAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAA.m; sourceTree = "<group>"; };
-		C4878E05208493EF00EC289F /* libXXX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXXX.a; sourceTree = "<group>"; };
-		C4878E0A2084960100EC289F /* XXX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXX.m; sourceTree = "<group>"; };
-		C4878E0C2084960D00EC289F /* XXX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXX.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4878E06208493EF00EC289F /* libXXX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +83,6 @@
 		C4878DDA208490C200EC289F /* DLANControlPointService */ = {
 			isa = PBXGroup;
 			children = (
-				C4878E05208493EF00EC289F /* libXXX.a */,
 				C4878DE32084910800EC289F /* clinkc.xcodeproj */,
 				C4878DDB208490C200EC289F /* DLANControlPointService.h */,
 				C4878DDC208490C200EC289F /* Info.plist */,
@@ -110,8 +103,6 @@
 		C4878DF52084916C00EC289F /* XXX */ = {
 			isa = PBXGroup;
 			children = (
-				C4878E0C2084960D00EC289F /* XXX.h */,
-				C4878E0A2084960100EC289F /* XXX.m */,
 			);
 			path = XXX;
 			sourceTree = "<group>";
@@ -139,6 +130,7 @@
 				C4878DD4208490C200EC289F /* Frameworks */,
 				C4878DD5208490C200EC289F /* Headers */,
 				C4878DD6208490C200EC289F /* Resources */,
+				C4878E1C2084988400EC289F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -227,6 +219,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C4878E1C2084988400EC289F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo xx";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4878DD3208490C200EC289F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -240,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4878E0B2084960100EC289F /* XXX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
