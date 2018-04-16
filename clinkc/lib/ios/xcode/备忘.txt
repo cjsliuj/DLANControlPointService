@@ -1,0 +1,31 @@
+原始项目：
+	参与编译的文件：
+	wrapper/objc/CyberLink
+	lib/ios/xcode/wrapper/objc/CyberLink
+	src/cybergarage/util
+	std/av/src/cybergarage/upnp/std/av
+	std/av/wrapper/objc/CyberLink
+
+	headers:
+	include/cybergarage
+	wrapper/objc/CyberLink
+	lib/ios/xcode/wrapper/objc/CyberLink
+	lib/ios/xcode/include/cybergarage
+	std/av/wrapper/objc/CyberLink
+
+问题：
+	wrapper/objc/CyberLink 目录下的文件 和 lib/ios/xcode/wrapper/objc/CyberLink 的文件相同，重复引用了。
+	所以将 wrapper/objc/CyberLink 目录下的引用去除
+
+引入 clickc 时，主项目需要在
+header search path 添加：
+$(SRCROOT)/clinkc/std/av/include
+$(SRCROOT)/clinkc/std/av/wrapper/objc
+$(SDKROOT)/usr/include/libxml2
+$(SRCROOT)/clinkc/include
+$(SRCROOT)/clinkc/wrapper/objc
+
+
+三方库更改点
+CGUpnpControlPoint 初始化方法中，将 start 方法的调用去删除， 为了方便项目中可以更好的控制
+CGUpnpDevice 中添加了 printXMLString 用于打印日志 方便调试
