@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UPnP.h"
-#import "UPnPAV.h"
+
 //! Project version number for DLANControlPointService.
 FOUNDATION_EXPORT double DLANControlPointServiceVersionNumber;
 

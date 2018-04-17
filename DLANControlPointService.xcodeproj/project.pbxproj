@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C4878DDD208490C200EC289F /* DLANControlPointService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DDB208490C200EC289F /* DLANControlPointService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4878DFF208491BC00EC289F /* AAA.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DFD208491BC00EC289F /* AAA.h */; };
-		C4878E00208491BC00EC289F /* AAA.m in Sources */ = {isa = PBXBuildFile; fileRef = C4878DFE208491BC00EC289F /* AAA.m */; };
-		C49A3DB72085C65700FC6053 /* XX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49A3DB62085C65700FC6053 /* XX.swift */; };
+		C49A3DBD2085C8FC00FC6053 /* libclinkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4878DE82084910900EC289F /* libclinkc.a */; };
+		C49A3DBF2085C93500FC6053 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C49A3DBE2085C93500FC6053 /* libxml2.tbd */; };
+		C49A3E392085D28200FC6053 /* DLNAControlPointService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49A3E382085D28200FC6053 /* DLNAControlPointService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +35,8 @@
 		C4878DDB208490C200EC289F /* DLANControlPointService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLANControlPointService.h; sourceTree = "<group>"; };
 		C4878DDC208490C200EC289F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4878DE32084910800EC289F /* clinkc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clinkc.xcodeproj; path = clinkc/lib/ios/xcode/clinkc.xcodeproj; sourceTree = SOURCE_ROOT; };
-		C4878DFD208491BC00EC289F /* AAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAA.h; sourceTree = "<group>"; };
-		C4878DFE208491BC00EC289F /* AAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAA.m; sourceTree = "<group>"; };
-		C49A3DB62085C65700FC6053 /* XX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XX.swift; sourceTree = "<group>"; };
+		C49A3DBE2085C93500FC6053 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		C49A3E382085D28200FC6053 /* DLNAControlPointService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNAControlPointService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49A3DBF2085C93500FC6053 /* libxml2.tbd in Frameworks */,
+				C49A3DBD2085C8FC00FC6053 /* libclinkc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +57,7 @@
 			children = (
 				C4878DDA208490C200EC289F /* DLANControlPointService */,
 				C4878DD9208490C200EC289F /* Products */,
+				C49A3DBC2085C8FC00FC6053 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,12 +72,10 @@
 		C4878DDA208490C200EC289F /* DLANControlPointService */ = {
 			isa = PBXGroup;
 			children = (
+				C49A3E382085D28200FC6053 /* DLNAControlPointService.swift */,
 				C4878DE32084910800EC289F /* clinkc.xcodeproj */,
 				C4878DDB208490C200EC289F /* DLANControlPointService.h */,
 				C4878DDC208490C200EC289F /* Info.plist */,
-				C4878DFD208491BC00EC289F /* AAA.h */,
-				C4878DFE208491BC00EC289F /* AAA.m */,
-				C49A3DB62085C65700FC6053 /* XX.swift */,
 			);
 			path = DLANControlPointService;
 			sourceTree = "<group>";
@@ -88,6 +88,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C49A3DBC2085C8FC00FC6053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C49A3DBE2085C93500FC6053 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -95,7 +103,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4878DFF208491BC00EC289F /* AAA.h in Headers */,
 				C4878DDD208490C200EC289F /* DLANControlPointService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,8 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4878E00208491BC00EC289F /* AAA.m in Sources */,
-				C49A3DB72085C65700FC6053 /* XX.swift in Sources */,
+				C49A3E392085D28200FC6053 /* DLNAControlPointService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +355,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/clinkc/std/av/include",
 					"$(SRCROOT)/clinkc/std/av/wrapper/objc",
@@ -369,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.DLANControlPointService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ClinkcFramework";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,6 +395,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/clinkc/std/av/include",
 					"$(SRCROOT)/clinkc/std/av/wrapper/objc",
@@ -407,6 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.DLANControlPointService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ClinkcFramework";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USE_HEADERMAP = NO;

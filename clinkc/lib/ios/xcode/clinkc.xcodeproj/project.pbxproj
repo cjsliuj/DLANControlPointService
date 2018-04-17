@@ -469,6 +469,7 @@
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C45BA9EE2080ABFE009AD00A /* 备忘.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "备忘.txt"; sourceTree = "<group>"; };
 		C45BAABE2080D803009AD00A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		C49A3DC02085C94F00FC6053 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libclinkc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libclinkc.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -512,6 +513,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C49A3DC02085C94F00FC6053 /* libxml2.tbd */,
 				C45BAABE2080D803009AD00A /* libxml2.2.tbd */,
 				A4A669B115553D1B00AED3AF /* CoreGraphics.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,

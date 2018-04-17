@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import ClinkcFramework
 public class RendererDevice:NSObject{
     public init(cgRenderer: CGUpnpAvRenderer) {
         super.init()

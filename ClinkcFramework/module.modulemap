@@ -1,0 +1,4 @@
+module ClinkcFramework [system] {
+  umbrella header "sdkPathAdapterHeader.h"
+  export *
+}
