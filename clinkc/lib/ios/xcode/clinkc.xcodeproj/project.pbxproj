@@ -467,7 +467,6 @@
 		A4BB107815552F5000999795 /* cmediaserver_device.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmediaserver_device.c; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* clinkc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clinkc_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C45BA9EE2080ABFE009AD00A /* 备忘.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "备忘.txt"; sourceTree = "<group>"; };
 		C45BAABE2080D803009AD00A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		C49A3DC02085C94F00FC6053 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libclinkc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libclinkc.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -497,7 +496,6 @@
 		0867D691FE84028FC02AAC07 /* clinkc */ = {
 			isa = PBXGroup;
 			children = (
-				C45BA9EE2080ABFE009AD00A /* 备忘.txt */,
 				A4A6697615553BEF00AED3AF /* wrapper */,
 				A4BB106215552F5000999795 /* src */,
 				A49897401553D56B0004DD81 /* include */,

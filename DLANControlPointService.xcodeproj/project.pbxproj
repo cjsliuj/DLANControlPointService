@@ -37,6 +37,7 @@
 		C4878DE32084910800EC289F /* clinkc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clinkc.xcodeproj; path = clinkc/lib/ios/xcode/clinkc.xcodeproj; sourceTree = SOURCE_ROOT; };
 		C49A3DBE2085C93500FC6053 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		C49A3E382085D28200FC6053 /* DLNAControlPointService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNAControlPointService.swift; sourceTree = "<group>"; };
+		C49A3E3A2085D2FE00FC6053 /* 备忘.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "备忘.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		C4878DCE208490C200EC289F = {
 			isa = PBXGroup;
 			children = (
+				C49A3E3A2085D2FE00FC6053 /* 备忘.txt */,
 				C4878DDA208490C200EC289F /* DLANControlPointService */,
 				C4878DD9208490C200EC289F /* Products */,
 				C49A3DBC2085C8FC00FC6053 /* Frameworks */,

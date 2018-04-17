@@ -25,6 +25,7 @@ $(SDKROOT)/usr/include/libxml2
 $(SRCROOT)/clinkc/include
 $(SRCROOT)/clinkc/wrapper/objc
 
+当前将 clinkc 封装成了module 以供framework引用
 
 三方库更改点
 CGUpnpControlPoint 初始化方法中，将 start 方法的调用去删除， 为了方便项目中可以更好的控制
