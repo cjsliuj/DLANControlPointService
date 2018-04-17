@@ -7,10 +7,7 @@
 //
 
 #import "AAA.h"
-#import "XXX.h"
+
 @implementation AAA
-- (void)aaa{
-    int a= 2;
-    [[XXX alloc]init];
-}
+
 @end

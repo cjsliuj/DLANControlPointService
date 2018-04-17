@@ -22,37 +22,17 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		C4878DF22084916C00EC289F /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		C4878DD8208490C200EC289F /* DLANControlPointService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLANControlPointService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4878DDB208490C200EC289F /* DLANControlPointService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLANControlPointService.h; sourceTree = "<group>"; };
 		C4878DDC208490C200EC289F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4878DE32084910800EC289F /* clinkc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clinkc.xcodeproj; path = clinkc/lib/ios/xcode/clinkc.xcodeproj; sourceTree = SOURCE_ROOT; };
-		C4878DF42084916C00EC289F /* libXXX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXXX.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4878DFD208491BC00EC289F /* AAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAA.h; sourceTree = "<group>"; };
 		C4878DFE208491BC00EC289F /* AAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C4878DD4208490C200EC289F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4878DF12084916C00EC289F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				C4878DDA208490C200EC289F /* DLANControlPointService */,
-				C4878DF52084916C00EC289F /* XXX */,
 				C4878DD9208490C200EC289F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				C4878DD8208490C200EC289F /* DLANControlPointService.framework */,
-				C4878DF42084916C00EC289F /* libXXX.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,13 +76,6 @@
 				C4878DE82084910900EC289F /* libclinkc.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C4878DF52084916C00EC289F /* XXX */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = XXX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,23 +112,6 @@
 			productReference = C4878DD8208490C200EC289F /* DLANControlPointService.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C4878DF32084916C00EC289F /* XXX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4878DFA2084916C00EC289F /* Build configuration list for PBXNativeTarget "XXX" */;
-			buildPhases = (
-				C4878DF02084916C00EC289F /* Sources */,
-				C4878DF12084916C00EC289F /* Frameworks */,
-				C4878DF22084916C00EC289F /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = XXX;
-			productName = XXX;
-			productReference = C4878DF42084916C00EC289F /* libXXX.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,9 +122,6 @@
 				ORGANIZATIONNAME = jerry;
 				TargetAttributes = {
 					C4878DD7208490C200EC289F = {
-						CreatedOnToolsVersion = 9.3;
-					};
-					C4878DF32084916C00EC289F = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -194,7 +145,6 @@
 			projectRoot = "";
 			targets = (
 				C4878DD7208490C200EC289F /* DLANControlPointService */,
-				C4878DF32084916C00EC289F /* XXX */,
 			);
 		};
 /* End PBXProject section */
@@ -241,13 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4878E00208491BC00EC289F /* AAA.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4878DF02084916C00EC289F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +342,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
@@ -427,28 +371,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C4878DFB2084916C00EC289F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C4878DFC2084916C00EC289F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
@@ -469,15 +392,6 @@
 			buildConfigurations = (
 				C4878DE1208490C200EC289F /* Debug */,
 				C4878DE2208490C200EC289F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C4878DFA2084916C00EC289F /* Build configuration list for PBXNativeTarget "XXX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C4878DFB2084916C00EC289F /* Debug */,
-				C4878DFC2084916C00EC289F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
