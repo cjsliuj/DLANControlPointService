@@ -142,15 +142,15 @@
 		A498970A1553D29F0004DD81 /* CGUpnpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A49896FD1553D29F0004DD81 /* CGUpnpAction.m */; };
 		A498970B1553D29F0004DD81 /* CGUpnpControlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = A49896FE1553D29F0004DD81 /* CGUpnpControlPoint.h */; };
 		A498970C1553D29F0004DD81 /* CGUpnpControlPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A49896FF1553D29F0004DD81 /* CGUpnpControlPoint.m */; };
-		A498970D1553D29F0004DD81 /* CGUpnpDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897001553D29F0004DD81 /* CGUpnpDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A498970D1553D29F0004DD81 /* CGUpnpDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897001553D29F0004DD81 /* CGUpnpDevice.h */; };
 		A498970E1553D29F0004DD81 /* CGUpnpDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897011553D29F0004DD81 /* CGUpnpDevice.m */; };
-		A498970F1553D29F0004DD81 /* CGUpnpIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897021553D29F0004DD81 /* CGUpnpIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A498970F1553D29F0004DD81 /* CGUpnpIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897021553D29F0004DD81 /* CGUpnpIcon.h */; };
 		A49897101553D29F0004DD81 /* CGUpnpIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897031553D29F0004DD81 /* CGUpnpIcon.m */; };
-		A49897111553D29F0004DD81 /* CGUpnpService.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897041553D29F0004DD81 /* CGUpnpService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A49897111553D29F0004DD81 /* CGUpnpService.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897041553D29F0004DD81 /* CGUpnpService.h */; };
 		A49897121553D29F0004DD81 /* CGUpnpService.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897051553D29F0004DD81 /* CGUpnpService.m */; };
 		A49897131553D29F0004DD81 /* CGUpnpStateVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897061553D29F0004DD81 /* CGUpnpStateVariable.h */; };
 		A49897141553D29F0004DD81 /* CGUpnpStateVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897071553D29F0004DD81 /* CGUpnpStateVariable.m */; };
-		A49897151553D29F0004DD81 /* UPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897081553D29F0004DD81 /* UPnP.h */; };
+		A49897151553D29F0004DD81 /* UPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897081553D29F0004DD81 /* UPnP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A49897721553D56B0004DD81 /* chttp.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897431553D56B0004DD81 /* chttp.h */; };
 		A49897731553D56B0004DD81 /* cfile.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897451553D56B0004DD81 /* cfile.h */; };
 		A49897741553D56B0004DD81 /* cinterface.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897471553D56B0004DD81 /* cinterface.h */; };
@@ -214,7 +214,7 @@
 		A4A669AD15553BEF00AED3AF /* CGXml.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6699115553BEF00AED3AF /* CGXml.m */; };
 		A4A669AE15553BEF00AED3AF /* CGXmlNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6699215553BEF00AED3AF /* CGXmlNode.h */; };
 		A4A669AF15553BEF00AED3AF /* CGXmlNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6699315553BEF00AED3AF /* CGXmlNode.m */; };
-		A4A669B015553BEF00AED3AF /* UPnPAV.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6699415553BEF00AED3AF /* UPnPAV.h */; };
+		A4A669B015553BEF00AED3AF /* UPnPAV.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6699415553BEF00AED3AF /* UPnPAV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A669B215553D1B00AED3AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A669B115553D1B00AED3AF /* CoreGraphics.framework */; };
 		A4BB107915552F5000999795 /* ccontent.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB106715552F5000999795 /* ccontent.c */; };
 		A4BB107A15552F5000999795 /* ccontent_list.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB106815552F5000999795 /* ccontent_list.c */; };
@@ -1160,10 +1160,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49897151553D29F0004DD81 /* UPnP.h in Headers */,
+				A4A669B015553BEF00AED3AF /* UPnPAV.h in Headers */,
 				A498970D1553D29F0004DD81 /* CGUpnpDevice.h in Headers */,
 				A498970F1553D29F0004DD81 /* CGUpnpIcon.h in Headers */,
 				A49897111553D29F0004DD81 /* CGUpnpService.h in Headers */,
-				A49897151553D29F0004DD81 /* UPnP.h in Headers */,
 				A49897131553D29F0004DD81 /* CGUpnpStateVariable.h in Headers */,
 				A498970B1553D29F0004DD81 /* CGUpnpControlPoint.h in Headers */,
 				A49897091553D29F0004DD81 /* CGUpnpAction.h in Headers */,
@@ -1181,7 +1182,6 @@
 				A4A669AA15553BEF00AED3AF /* CGUpnpAvServer.h in Headers */,
 				A4A669AC15553BEF00AED3AF /* CGXml.h in Headers */,
 				A4A669AE15553BEF00AED3AF /* CGXmlNode.h in Headers */,
-				A4A669B015553BEF00AED3AF /* UPnPAV.h in Headers */,
 				219B8E41131FD1D7003F8530 /* chttp.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* clinkc_Prefix.pch in Headers */,
 				219B8E43131FD1D7003F8530 /* cinterface.h in Headers */,

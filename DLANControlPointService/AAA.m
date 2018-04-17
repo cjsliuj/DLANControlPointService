@@ -7,7 +7,8 @@
 //
 
 #import "AAA.h"
-
+#import <CyberLink/UPnP.h>
+#import <CyberLink/UPnPAV.h>
 @implementation AAA
 
 @end

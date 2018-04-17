@@ -10,6 +10,7 @@
 		C4878DDD208490C200EC289F /* DLANControlPointService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DDB208490C200EC289F /* DLANControlPointService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4878DFF208491BC00EC289F /* AAA.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DFD208491BC00EC289F /* AAA.h */; };
 		C4878E00208491BC00EC289F /* AAA.m in Sources */ = {isa = PBXBuildFile; fileRef = C4878DFE208491BC00EC289F /* AAA.m */; };
+		C49A3DB72085C65700FC6053 /* XX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49A3DB62085C65700FC6053 /* XX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -18,6 +19,13 @@
 			containerPortal = C4878DE32084910800EC289F /* clinkc.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = clinkc;
+		};
+		C49A3DAB2085C35A00FC6053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4878DE32084910800EC289F /* clinkc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = clinkc;
 		};
 /* End PBXContainerItemProxy section */
@@ -29,6 +37,7 @@
 		C4878DE32084910800EC289F /* clinkc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clinkc.xcodeproj; path = clinkc/lib/ios/xcode/clinkc.xcodeproj; sourceTree = SOURCE_ROOT; };
 		C4878DFD208491BC00EC289F /* AAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAA.h; sourceTree = "<group>"; };
 		C4878DFE208491BC00EC289F /* AAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAA.m; sourceTree = "<group>"; };
+		C49A3DB62085C65700FC6053 /* XX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,7 @@
 				C4878DDC208490C200EC289F /* Info.plist */,
 				C4878DFD208491BC00EC289F /* AAA.h */,
 				C4878DFE208491BC00EC289F /* AAA.m */,
+				C49A3DB62085C65700FC6053 /* XX.swift */,
 			);
 			path = DLANControlPointService;
 			sourceTree = "<group>";
@@ -106,6 +116,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C49A3DAC2085C35A00FC6053 /* PBXTargetDependency */,
 			);
 			name = DLANControlPointService;
 			productName = DLANControlPointService;
@@ -123,6 +134,7 @@
 				TargetAttributes = {
 					C4878DD7208490C200EC289F = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -191,10 +203,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4878E00208491BC00EC289F /* AAA.m in Sources */,
+				C49A3DB72085C65700FC6053 /* XX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49A3DAC2085C35A00FC6053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = clinkc;
+			targetProxy = C49A3DAB2085C35A00FC6053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C4878DDE208490C200EC289F /* Debug */ = {
@@ -320,12 +341,20 @@
 		C4878DE1208490C200EC289F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/clinkc/std/av/include",
+					"$(SRCROOT)/clinkc/std/av/wrapper/objc",
+					"$(SRCROOT)/clinkc/include",
+					"$(SRCROOT)/clinkc/wrapper/objc",
+				);
 				INFOPLIST_FILE = DLANControlPointService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -340,6 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.DLANControlPointService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USE_HEADERMAP = NO;
@@ -349,12 +379,20 @@
 		C4878DE2208490C200EC289F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/clinkc/std/av/include",
+					"$(SRCROOT)/clinkc/std/av/wrapper/objc",
+					"$(SRCROOT)/clinkc/include",
+					"$(SRCROOT)/clinkc/wrapper/objc",
+				);
 				INFOPLIST_FILE = DLANControlPointService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
