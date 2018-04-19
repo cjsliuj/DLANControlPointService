@@ -7,19 +7,43 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
+import DLANControlPointService
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,DLNAControlPointServiceDelegate {
+    
+    @IBOutlet weak var _tbv: UITableView!
+    private var _ds: [RendererDevice] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        _tbv.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        DLNAControlPointService.share.start { (isStartAsControlPointSuccess) in
+            
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onClickSearch(_ sender: Any) {
+        
     }
-
-
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return 1;
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        return cell
+    }
+    
+    func onDeviceEvent(event: DeviceEvent, device: RendererDevice) {
+//        switch event {
+//        case .add:
+//            if !_ds.contains(device){
+//                _ds.append(device)
+//            }
+//        case .invalid, .remove:
+//            if let hitIndex = _ds.index(of: device){
+//
+//            }
+//        case .update:
+//        }
+    }
 }
 
