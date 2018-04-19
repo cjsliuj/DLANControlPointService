@@ -92,9 +92,10 @@
 		C4878DDB208490C200EC289F /* DLANControlPointService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLANControlPointService.h; sourceTree = "<group>"; };
 		C4878DDC208490C200EC289F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4878DE32084910800EC289F /* clinkc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clinkc.xcodeproj; path = clinkc/lib/ios/xcode/clinkc.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C49975822088EB500093948D /* 备忘.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "备忘.txt"; sourceTree = "<group>"; };
+		C49975832088EB510093948D /* UPnP-av-RenderingControl-v1-Service-20020625.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "UPnP-av-RenderingControl-v1-Service-20020625.pdf"; sourceTree = "<group>"; };
 		C49A3DBE2085C93500FC6053 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		C49A3E382085D28200FC6053 /* DLNAControlPointService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNAControlPointService.swift; sourceTree = "<group>"; };
-		C49A3E3A2085D2FE00FC6053 /* 备忘.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "备忘.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +144,7 @@
 		C4878DCE208490C200EC289F = {
 			isa = PBXGroup;
 			children = (
-				C49A3E3A2085D2FE00FC6053 /* 备忘.txt */,
+				C49975812088EB2B0093948D /* Doc */,
 				C4878DDA208490C200EC289F /* DLANControlPointService */,
 				C47EEE9A208874DB00E4AFD1 /* Demo */,
 				C4878DD9208490C200EC289F /* Products */,
@@ -179,6 +180,15 @@
 				C403AE7520888ABE0050A94E /* libclinkc.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C49975812088EB2B0093948D /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				C49975822088EB500093948D /* 备忘.txt */,
+				C49975832088EB510093948D /* UPnP-av-RenderingControl-v1-Service-20020625.pdf */,
+			);
+			path = Doc;
 			sourceTree = "<group>";
 		};
 		C49A3DBC2085C8FC00FC6053 /* Frameworks */ = {
