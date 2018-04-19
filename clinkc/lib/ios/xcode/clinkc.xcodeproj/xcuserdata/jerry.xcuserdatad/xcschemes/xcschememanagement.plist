@@ -9,10 +9,15 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
-		<key>clinkc.xcscheme</key>
+		<key>clinkc_iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>clinkc_macOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>

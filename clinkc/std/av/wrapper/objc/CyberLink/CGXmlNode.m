@@ -6,7 +6,7 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#if  defined(TARGET_OS_IPHONE)
+#if  TARGET_OS_IPHONE
 #import <cybergarage/xml/cxml.h>
 #endif
 #import <cybergarage/util/cstring.h>
@@ -17,7 +17,7 @@
 
 @synthesize userInfo;
 
-#if  !defined(TARGET_OS_IPHONE)
+#if  !TARGET_OS_IPHONE
 
 @synthesize xmlNode;
 
@@ -88,7 +88,7 @@
 	[xmlNode addAttribute:attrNode];
 }
 
-#else // defined(TARGET_OS_IPHONE)
+#else // TARGET_OS_IPHONE
 
 @synthesize cXmlNode;
 

@@ -12,7 +12,7 @@
 @implementation CGUpnpIcon
 
 @synthesize cObject;
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 @synthesize resourceName;
 #endif
 
@@ -33,7 +33,10 @@
 
 - (void) dealloc
 {
-	self.resourceName = nil;
+#if TARGET_OS_IPHONE
+    self.resourceName = nil;
+#endif
+	
     
 	[super dealloc];
 }
@@ -78,7 +81,7 @@
 	return cg_upnp_icon_getdepth(cObject);
 }
 
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 - (void)setResourceName:(NSString *) aResourceName
 {
 	//UIImage *image = [UIImage imageNamed:aResourceName];

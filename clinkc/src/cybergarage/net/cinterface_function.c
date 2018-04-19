@@ -626,7 +626,7 @@ int cg_net_gethostinterfaces(CgNetworkInterfaceList *netIfList)
 * cg_net_selectaddr
 ****************************************/
 
-#if !defined(HAVE_IFADDRS_H) || defined(TARGET_OS_IPHONE) || defined(TARGET_IPHONE_SIMULATOR)
+#if !defined(HAVE_IFADDRS_H) || TARGET_OS_IPHONE || defined(TARGET_IPHONE_SIMULATOR)
 char *cg_net_selectaddr(struct sockaddr *remoteaddr)
 {
 	CgNetworkInterfaceList *netIfList;

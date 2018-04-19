@@ -20,7 +20,7 @@
 	return self;
 }
 
-#if  !defined(TARGET_OS_IPHONE)
+#if  !TARGET_OS_IPHONE
 - (id)initWithXMLNode:(NSXMLElement *)aXmlNode
 #else
 - (id)initWithXMLNode:(CgXmlNode *)aXmlNode

@@ -1097,7 +1097,7 @@ BOOL cg_socket_setreuseaddress(CgSocket *sock, BOOL flag)
 #else
 	optval = (flag == TRUE) ? 1 : 0;
 	sockOptRet = setsockopt(sock->id, SOL_SOCKET, SO_REUSEADDR, (const char *)&optval, sizeof(optval));
-	#if defined(USE_SO_REUSEPORT) || defined(TARGET_OS_MAC) || defined(TARGET_OS_IPHONE)
+	#if defined(USE_SO_REUSEPORT) || defined(TARGET_OS_MAC) || TARGET_OS_IPHONE
 	setsockopt(sock->id, SOL_SOCKET, SO_REUSEPORT, (const char *)&optval, sizeof(optval));
 	#endif
 #endif

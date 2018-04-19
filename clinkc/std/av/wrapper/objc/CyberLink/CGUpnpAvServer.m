@@ -24,7 +24,7 @@
 @synthesize cAvObject;
 @synthesize delegate;
 
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 @synthesize thumbnailImage;
 #endif
 

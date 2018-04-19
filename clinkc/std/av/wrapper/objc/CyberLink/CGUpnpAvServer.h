@@ -6,7 +6,7 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #else
 #import <Foundation/NSArray.h>
@@ -40,7 +40,7 @@ typedef void CgUpnpAvServer;
 @property(readonly) CgUpnpAvServer *cAvObject;
 @property(assign) id<CGUpnpAvServerDelegate> delegate;
 
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 @property(retain) UIImage *thumbnailImage;
 #endif
 

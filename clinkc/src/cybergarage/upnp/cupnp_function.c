@@ -28,7 +28,7 @@
 
 #include <cybergarage/typedef.h>
 
-#if defined(HAVE_UUID_UUID_H) || defined(HAVE_LIBUUID) || defined(TARGET_OS_IPHONE)
+#if defined(HAVE_UUID_UUID_H) || defined(HAVE_LIBUUID) || TARGET_OS_IPHONE
 #include <uuid/uuid.h>
 #endif
 
@@ -50,7 +50,7 @@ static BOOL isUpnpNMPRMode = FALSE;
 
 char *cg_upnp_createuuid(char *uuidBuf, int uuidBufSize)
 {
-#if defined(HAVE_LIBUUID) || defined(TARGET_OS_IPHONE)
+#if defined(HAVE_LIBUUID) || TARGET_OS_IPHONE
 	uuid_t uuid;
 	char uuidStr[CG_UPNP_UUID_MAX_LEN];
 #elif defined(WIN32)
@@ -64,7 +64,7 @@ char *cg_upnp_createuuid(char *uuidBuf, int uuidBufSize)
 	
 	cg_log_debug_l4("Entering...\n");
 
-#if defined(HAVE_LIBUUID) || defined(TARGET_OS_IPHONE)
+#if defined(HAVE_LIBUUID) || TARGET_OS_IPHONE
     uuid_generate(uuid);
 	uuid_unparse_lower(uuid, uuidStr);
 	snprintf(uuidBuf,uuidBufSize, "uuid:%s",uuidStr);

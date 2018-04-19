@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C403AE6620888ABD0050A94E /* DLNAControlPointService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49A3E382085D28200FC6053 /* DLNAControlPointService.swift */; };
+		C403AE6B20888ABD0050A94E /* DLANControlPointService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DDB208490C200EC289F /* DLANControlPointService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C403AE8820888E6A0050A94E /* libclinkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C403AE7520888ABE0050A94E /* libclinkc.a */; };
+		C403AE8E20888F0C0050A94E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C403AE8620888BD00050A94E /* libxml2.tbd */; };
 		C47EEE9C208874DB00E4AFD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EEE9B208874DB00E4AFD1 /* AppDelegate.swift */; };
 		C47EEE9E208874DB00E4AFD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EEE9D208874DB00E4AFD1 /* ViewController.swift */; };
 		C47EEEA1208874DB00E4AFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47EEE9F208874DB00E4AFD1 /* Main.storyboard */; };
@@ -21,6 +25,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C403AE7420888ABE0050A94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4878DE32084910800EC289F /* clinkc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C403AE61208889D70050A94E;
+			remoteInfo = clinkc_macOS;
+		};
+		C403AE8420888B950050A94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4878DE32084910800EC289F /* clinkc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C403AD77208889D70050A94E;
+			remoteInfo = clinkc_macOS;
+		};
 		C47EEEB420887BE900E4AFD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C4878DCF208490C200EC289F /* Project object */;
@@ -59,6 +77,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C403AE7120888ABD0050A94E /* DLANControlPointService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLANControlPointService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C403AE7220888ABE0050A94E /* DLANControlPointService copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DLANControlPointService copy-Info.plist"; path = "/Users/jerry/Desktop/DLANControlPointService/DLANControlPointService copy-Info.plist"; sourceTree = "<absolute>"; };
+		C403AE8620888BD00050A94E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
+		C403AE8A20888EA30050A94E /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libxml2.2.tbd; sourceTree = DEVELOPER_DIR; };
 		C47EEE99208874DB00E4AFD1 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47EEE9B208874DB00E4AFD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C47EEE9D208874DB00E4AFD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +98,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C403AE6720888ABD0050A94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C403AE8E20888F0C0050A94E /* libxml2.tbd in Frameworks */,
+				C403AE8820888E6A0050A94E /* libclinkc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47EEE96208874DB00E4AFD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,6 +148,7 @@
 				C47EEE9A208874DB00E4AFD1 /* Demo */,
 				C4878DD9208490C200EC289F /* Products */,
 				C49A3DBC2085C8FC00FC6053 /* Frameworks */,
+				C403AE7220888ABE0050A94E /* DLANControlPointService copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +157,7 @@
 			children = (
 				C4878DD8208490C200EC289F /* DLANControlPointService.framework */,
 				C47EEE99208874DB00E4AFD1 /* Demo.app */,
+				C403AE7120888ABD0050A94E /* DLANControlPointService.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				C4878DE82084910900EC289F /* libclinkc.a */,
+				C403AE7520888ABE0050A94E /* libclinkc.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +185,8 @@
 		C49A3DBC2085C8FC00FC6053 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C403AE8A20888EA30050A94E /* libxml2.2.tbd */,
+				C403AE8620888BD00050A94E /* libxml2.tbd */,
 				C49A3DBE2085C93500FC6053 /* libxml2.tbd */,
 			);
 			name = Frameworks;
@@ -159,6 +195,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		C403AE6A20888ABD0050A94E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C403AE6B20888ABD0050A94E /* DLANControlPointService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4878DD5208490C200EC289F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,6 +214,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		C403AE6220888ABD0050A94E /* DLANControlPointService_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C403AE6E20888ABD0050A94E /* Build configuration list for PBXNativeTarget "DLANControlPointService_macOS" */;
+			buildPhases = (
+				C403AE6520888ABD0050A94E /* Sources */,
+				C403AE6720888ABD0050A94E /* Frameworks */,
+				C403AE6A20888ABD0050A94E /* Headers */,
+				C403AE6C20888ABD0050A94E /* Resources */,
+				C403AE6D20888ABD0050A94E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C403AE8520888B950050A94E /* PBXTargetDependency */,
+			);
+			name = DLANControlPointService_macOS;
+			productName = DLANControlPointService;
+			productReference = C403AE7120888ABD0050A94E /* DLANControlPointService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C47EEE98208874DB00E4AFD1 /* Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C47EEEAA208874DD00E4AFD1 /* Build configuration list for PBXNativeTarget "Demo" */;
@@ -189,9 +253,9 @@
 			productReference = C47EEE99208874DB00E4AFD1 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4878DD7208490C200EC289F /* DLANControlPointService */ = {
+		C4878DD7208490C200EC289F /* DLANControlPointService_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4878DE0208490C200EC289F /* Build configuration list for PBXNativeTarget "DLANControlPointService" */;
+			buildConfigurationList = C4878DE0208490C200EC289F /* Build configuration list for PBXNativeTarget "DLANControlPointService_iOS" */;
 			buildPhases = (
 				C4878DD3208490C200EC289F /* Sources */,
 				C4878DD4208490C200EC289F /* Frameworks */,
@@ -204,7 +268,7 @@
 			dependencies = (
 				C49A3DAC2085C35A00FC6053 /* PBXTargetDependency */,
 			);
-			name = DLANControlPointService;
+			name = DLANControlPointService_iOS;
 			productName = DLANControlPointService;
 			productReference = C4878DD8208490C200EC289F /* DLANControlPointService.framework */;
 			productType = "com.apple.product-type.framework";
@@ -247,13 +311,21 @@
 			);
 			projectRoot = "";
 			targets = (
-				C4878DD7208490C200EC289F /* DLANControlPointService */,
+				C4878DD7208490C200EC289F /* DLANControlPointService_iOS */,
+				C403AE6220888ABD0050A94E /* DLANControlPointService_macOS */,
 				C47EEE98208874DB00E4AFD1 /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		C403AE7520888ABE0050A94E /* libclinkc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libclinkc.a;
+			remoteRef = C403AE7420888ABE0050A94E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		C4878DE82084910900EC289F /* libclinkc.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -264,6 +336,13 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C403AE6C20888ABD0050A94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47EEE97208874DB00E4AFD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +363,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		C403AE6D20888ABD0050A94E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo xx";
+		};
 		C4878E1C2084988400EC289F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +392,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C403AE6520888ABD0050A94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C403AE6620888ABD0050A94E /* DLNAControlPointService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C47EEE95208874DB00E4AFD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,9 +420,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C403AE8520888B950050A94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = clinkc_macOS;
+			targetProxy = C403AE8420888B950050A94E /* PBXContainerItemProxy */;
+		};
 		C47EEEB520887BE900E4AFD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4878DD7208490C200EC289F /* DLANControlPointService */;
+			target = C4878DD7208490C200EC289F /* DLANControlPointService_iOS */;
 			targetProxy = C47EEEB420887BE900E4AFD1 /* PBXContainerItemProxy */;
 		};
 		C49A3DAC2085C35A00FC6053 /* PBXTargetDependency */ = {
@@ -352,6 +457,91 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C403AE6F20888ABD0050A94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BDDVN8QC2V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/clinkc/std/av/include",
+					"$(SRCROOT)/clinkc/std/av/wrapper/objc",
+					"$(SRCROOT)/clinkc/include",
+					"$(SRCROOT)/clinkc/wrapper/objc",
+				);
+				INFOPLIST_FILE = "DLANControlPointService copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DLANControlPointService",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.DLANControlPointService;
+				PRODUCT_NAME = DLANControlPointService;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ClinkcFramework";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = YES;
+			};
+			name = Debug;
+		};
+		C403AE7020888ABD0050A94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/clinkc/std/av/include",
+					"$(SRCROOT)/clinkc/std/av/wrapper/objc",
+					"$(SRCROOT)/clinkc/include",
+					"$(SRCROOT)/clinkc/wrapper/objc",
+				);
+				INFOPLIST_FILE = "DLANControlPointService copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DLANControlPointService",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.DLANControlPointService;
+				PRODUCT_NAME = DLANControlPointService;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ClinkcFramework";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = YES;
+			};
+			name = Release;
+		};
 		C47EEEA8208874DD00E4AFD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -545,8 +735,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DLANControlPointService",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.DLANControlPointService;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = DLANControlPointService;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ClinkcFramework";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -586,8 +777,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DLANControlPointService",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.DLANControlPointService;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = DLANControlPointService;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ClinkcFramework";
 				SWIFT_VERSION = 4.0;
@@ -599,6 +791,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C403AE6E20888ABD0050A94E /* Build configuration list for PBXNativeTarget "DLANControlPointService_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C403AE6F20888ABD0050A94E /* Debug */,
+				C403AE7020888ABD0050A94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C47EEEAA208874DD00E4AFD1 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -617,7 +818,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4878DE0208490C200EC289F /* Build configuration list for PBXNativeTarget "DLANControlPointService" */ = {
+		C4878DE0208490C200EC289F /* Build configuration list for PBXNativeTarget "DLANControlPointService_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4878DE1208490C200EC289F /* Debug */,

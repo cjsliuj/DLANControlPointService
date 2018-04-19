@@ -463,7 +463,7 @@ BOOL cg_thread_stop_with_cond(CgThread *thread, CgCond *cond)
 		b_ter_tsk(thread->taskID);
 #else
 		cg_log_debug_s("Killing thread %p\n", thread);
-		#if  defined(TARGET_OS_MAC) || defined(TARGET_OS_IPHONE)
+		#if  defined(TARGET_OS_MAC) || TARGET_OS_IPHONE
 		pthread_kill(thread->pThread, 0);
 		#else
 		 pthread_kill(thread->pThread, SIGQUIT);

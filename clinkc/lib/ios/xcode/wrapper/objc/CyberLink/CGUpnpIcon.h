@@ -19,12 +19,12 @@ typedef void CgUpnpIcon;
 @interface CGUpnpIcon : NSObject
 {
 	CgUpnpIcon *cObject;
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 	NSString *resourceName;
 #endif
 }
 @property(readonly) CgUpnpIcon *cObject;
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 @property(readonly) NSString *resourceName;
 #endif
 - (id)initWithCObject:(CgUpnpIcon *)cobj;
@@ -52,7 +52,7 @@ typedef void CgUpnpIcon;
  * @return The depth.
  */
 - (NSInteger)depth;
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 - (void)setResourceName:(NSString *) aResourceName;
 #endif
 @end

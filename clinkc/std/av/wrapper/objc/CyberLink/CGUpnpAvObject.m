@@ -18,7 +18,7 @@
 
 @implementation CGUpnpAvObject
 
-#if defined(TARGET_OS_IPHONE)
+#if TARGET_OS_IPHONE
 @synthesize thumbnailImage;
 #endif
 
@@ -26,7 +26,7 @@
 
 + (NSArray *)arrayWithXMLString:(NSString *)aXmlString
 {
-#if  !defined(TARGET_OS_IPHONE)
+#if  !TARGET_OS_IPHONE
 	NSError *xmlErr;
 	NSXMLDocument *xmlDoc = [[NSXMLDocument alloc] initWithXMLString:aXmlString options:0 error:&xmlErr];
 	if (!xmlDoc)
@@ -112,7 +112,7 @@
 	return self;
 }
 
-#if  !defined(TARGET_OS_IPHONE)
+#if  !TARGET_OS_IPHONE
 - (id)initWithXMLNode:(NSXMLElement *)aXmlNode
 #else
 - (id)initWithXMLNode:(CgXmlNode *)aXmlNode
@@ -123,7 +123,7 @@
 	return self;
 }
 
-#if  defined(TARGET_OS_IPHONE)
+#if  TARGET_OS_IPHONE
 - (id)initWithMediaContent:(CgUpnpAvContent *)aMediaContent
 {
 	if ((self = [super initWithXMLNode:aMediaContent]) == nil)
