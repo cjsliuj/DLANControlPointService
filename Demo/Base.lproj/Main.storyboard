@@ -33,15 +33,33 @@
                                     <action selector="onClickSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyI-Xo-SXs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCj-LV-iUr">
+                                <rect key="frame" x="187" y="49" width="41" height="30"/>
+                                <state key="normal" title="音量+"/>
+                                <connections>
+                                    <action selector="onclickVolumeIncrease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g5A-Ty-0AY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tu4-9L-PWP">
+                                <rect key="frame" x="250" y="49" width="38" height="30"/>
+                                <state key="normal" title="音量-"/>
+                                <connections>
+                                    <action selector="onclickVolumeDecrease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UiL-pg-Op1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ffF-Ur-jlB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="5OX-2T-wcE"/>
+                            <constraint firstItem="NCj-LV-iUr" firstAttribute="centerY" secondItem="ffF-Ur-jlB" secondAttribute="centerY" id="DL3-kt-M3T"/>
+                            <constraint firstItem="NCj-LV-iUr" firstAttribute="leading" secondItem="ffF-Ur-jlB" secondAttribute="trailing" constant="63" id="FhO-Lx-ulI"/>
                             <constraint firstItem="ffF-Ur-jlB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="K0P-dy-tM9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0yi-BW-jCi" secondAttribute="trailing" id="QzL-2P-Z0C"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0yi-BW-jCi" secondAttribute="bottom" id="W6U-yj-eZd"/>
+                            <constraint firstItem="Tu4-9L-PWP" firstAttribute="centerY" secondItem="NCj-LV-iUr" secondAttribute="centerY" id="XwL-Ds-Woy"/>
                             <constraint firstItem="0yi-BW-jCi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dSd-BF-PFs"/>
                             <constraint firstItem="0yi-BW-jCi" firstAttribute="top" secondItem="ffF-Ur-jlB" secondAttribute="bottom" constant="20" id="ivV-FE-XGJ"/>
+                            <constraint firstItem="Tu4-9L-PWP" firstAttribute="leading" secondItem="NCj-LV-iUr" secondAttribute="trailing" constant="22" id="vjy-Du-bFb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

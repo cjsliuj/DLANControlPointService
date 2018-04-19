@@ -105,10 +105,7 @@ BOOL cg_upnp_action_post(CgUpnpAction *action)
 	cg_log_debug_l4("Entering...\n");
 	
 	actionReq = cg_upnp_control_action_request_new();
-//    printf("----------------- rsp ---------------\n");
 //    cg_xml_node_print(actionReq->actionRes->soapRes->rootNodeList);
-//    printf("+++++++++++++++++ rsp +++++++++++++++++\n");
-//    
 	cg_upnp_control_action_request_setaction(actionReq, action);
 	actionRes = cg_upnp_control_action_request_post(actionReq);
 	actionSuccess = cg_upnp_control_action_response_issuccessful(actionRes);

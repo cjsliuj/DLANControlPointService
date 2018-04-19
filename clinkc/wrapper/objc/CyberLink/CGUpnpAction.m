@@ -135,5 +135,7 @@ static BOOL CGUpnpActionListener(CgUpnpAction *cAction)
 		return 0;
 	return cg_upnp_action_getstatuscode(cObject);
 }
-
+- (void) printXMLString{
+    cg_xml_node_print(self.cObject->actionNode);
+}
 @end

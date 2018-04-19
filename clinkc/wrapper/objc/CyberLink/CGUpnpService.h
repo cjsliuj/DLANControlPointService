@@ -85,5 +85,5 @@ typedef void CgUpnpService;
  * @return YES if implemented
  */
 - (BOOL)isStateVariableImpemented:(NSString*)name;
-
+- (void) printXMLString;
 @end

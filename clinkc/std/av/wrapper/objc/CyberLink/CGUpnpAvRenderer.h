@@ -37,9 +37,12 @@ typedef void CgUpnpAvRenderer;
 - (BOOL)previous;
 - (BOOL)seek:(float)absTime;
 - (BOOL)isPlaying;
+- (NSInteger)getVolume;
+- (BOOL)setVolume:(NSInteger)volume;
 /*
 - (BOOL)start
 - (BOOL)stop
 */
 - (CGUpnpAVPositionInfo *)positionInfo;
+
 @end

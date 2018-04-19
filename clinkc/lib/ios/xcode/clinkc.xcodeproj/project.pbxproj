@@ -138,19 +138,6 @@
 		219B8E62131FD1D7003F8530 /* cthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 219B8E3B131FD1D7003F8530 /* cthread.h */; };
 		219B8E63131FD1D7003F8530 /* ctime.h in Headers */ = {isa = PBXBuildFile; fileRef = 219B8E3C131FD1D7003F8530 /* ctime.h */; };
 		219B8E64131FD1D7003F8530 /* cxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 219B8E3E131FD1D7003F8530 /* cxml.h */; };
-		A49897091553D29F0004DD81 /* CGUpnpAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A49896FC1553D29F0004DD81 /* CGUpnpAction.h */; };
-		A498970A1553D29F0004DD81 /* CGUpnpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A49896FD1553D29F0004DD81 /* CGUpnpAction.m */; };
-		A498970B1553D29F0004DD81 /* CGUpnpControlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = A49896FE1553D29F0004DD81 /* CGUpnpControlPoint.h */; };
-		A498970C1553D29F0004DD81 /* CGUpnpControlPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A49896FF1553D29F0004DD81 /* CGUpnpControlPoint.m */; };
-		A498970D1553D29F0004DD81 /* CGUpnpDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897001553D29F0004DD81 /* CGUpnpDevice.h */; };
-		A498970E1553D29F0004DD81 /* CGUpnpDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897011553D29F0004DD81 /* CGUpnpDevice.m */; };
-		A498970F1553D29F0004DD81 /* CGUpnpIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897021553D29F0004DD81 /* CGUpnpIcon.h */; };
-		A49897101553D29F0004DD81 /* CGUpnpIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897031553D29F0004DD81 /* CGUpnpIcon.m */; };
-		A49897111553D29F0004DD81 /* CGUpnpService.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897041553D29F0004DD81 /* CGUpnpService.h */; };
-		A49897121553D29F0004DD81 /* CGUpnpService.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897051553D29F0004DD81 /* CGUpnpService.m */; };
-		A49897131553D29F0004DD81 /* CGUpnpStateVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897061553D29F0004DD81 /* CGUpnpStateVariable.h */; };
-		A49897141553D29F0004DD81 /* CGUpnpStateVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897071553D29F0004DD81 /* CGUpnpStateVariable.m */; };
-		A49897151553D29F0004DD81 /* UPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897081553D29F0004DD81 /* UPnP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A49897721553D56B0004DD81 /* chttp.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897431553D56B0004DD81 /* chttp.h */; };
 		A49897731553D56B0004DD81 /* cfile.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897451553D56B0004DD81 /* cfile.h */; };
 		A49897741553D56B0004DD81 /* cinterface.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897471553D56B0004DD81 /* cinterface.h */; };
@@ -234,14 +221,7 @@
 		A4BB108815552F5000999795 /* cmediaserver_device.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB107815552F5000999795 /* cmediaserver_device.c */; };
 		AA747D9F0F9514B9006C5449 /* clinkc_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* clinkc_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		C403AD79208889D70050A94E /* UPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897081553D29F0004DD81 /* UPnP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C403AD7A208889D70050A94E /* UPnPAV.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6699415553BEF00AED3AF /* UPnPAV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C403AD7B208889D70050A94E /* CGUpnpDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897001553D29F0004DD81 /* CGUpnpDevice.h */; };
-		C403AD7C208889D70050A94E /* CGUpnpIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897021553D29F0004DD81 /* CGUpnpIcon.h */; };
-		C403AD7D208889D70050A94E /* CGUpnpService.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897041553D29F0004DD81 /* CGUpnpService.h */; };
-		C403AD7E208889D70050A94E /* CGUpnpStateVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = A49897061553D29F0004DD81 /* CGUpnpStateVariable.h */; };
-		C403AD7F208889D70050A94E /* CGUpnpControlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = A49896FE1553D29F0004DD81 /* CGUpnpControlPoint.h */; };
-		C403AD80208889D70050A94E /* CGUpnpAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A49896FC1553D29F0004DD81 /* CGUpnpAction.h */; };
 		C403AD81208889D70050A94E /* CGUpnpAvConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6697915553BEF00AED3AF /* CGUpnpAvConstants.h */; };
 		C403AD82208889D70050A94E /* CGUpnpAvContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6697A15553BEF00AED3AF /* CGUpnpAvContainer.h */; };
 		C403AD83208889D70050A94E /* CGUpnpAvContentDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A6697C15553BEF00AED3AF /* CGUpnpAvContentDirectory.h */; };
@@ -424,12 +404,6 @@
 		C403AE35208889D70050A94E /* cxml_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 219B8DAC131FD1BA003F8530 /* cxml_parser.c */; };
 		C403AE36208889D70050A94E /* cxml_parser_expat.c in Sources */ = {isa = PBXBuildFile; fileRef = 219B8DAD131FD1BA003F8530 /* cxml_parser_expat.c */; };
 		C403AE37208889D70050A94E /* cxml_parser_libxml2.c in Sources */ = {isa = PBXBuildFile; fileRef = 219B8DAE131FD1BA003F8530 /* cxml_parser_libxml2.c */; };
-		C403AE38208889D70050A94E /* CGUpnpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A49896FD1553D29F0004DD81 /* CGUpnpAction.m */; };
-		C403AE39208889D70050A94E /* CGUpnpControlPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A49896FF1553D29F0004DD81 /* CGUpnpControlPoint.m */; };
-		C403AE3A208889D70050A94E /* CGUpnpDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897011553D29F0004DD81 /* CGUpnpDevice.m */; };
-		C403AE3B208889D70050A94E /* CGUpnpIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897031553D29F0004DD81 /* CGUpnpIcon.m */; };
-		C403AE3C208889D70050A94E /* CGUpnpService.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897051553D29F0004DD81 /* CGUpnpService.m */; };
-		C403AE3D208889D70050A94E /* CGUpnpStateVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = A49897071553D29F0004DD81 /* CGUpnpStateVariable.m */; };
 		C403AE3E208889D70050A94E /* ccontent.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB106715552F5000999795 /* ccontent.c */; };
 		C403AE3F208889D70050A94E /* ccontent_list.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB106815552F5000999795 /* ccontent_list.c */; };
 		C403AE40208889D70050A94E /* cdidl.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB106915552F5000999795 /* cdidl.c */; };
@@ -461,6 +435,34 @@
 		C403AE5A208889D70050A94E /* CGXmlNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A6699315553BEF00AED3AF /* CGXmlNode.m */; };
 		C403AE5C208889D70050A94E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A669B115553D1B00AED3AF /* CoreGraphics.framework */; };
 		C403AE5D208889D70050A94E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		C49975642088D8650093948D /* CGUpnpDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C49974C32088D8650093948D /* CGUpnpDevice.h */; };
+		C49975652088D8650093948D /* CGUpnpDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C49974C32088D8650093948D /* CGUpnpDevice.h */; };
+		C49975662088D8650093948D /* CGUpnpStateVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = C49974C42088D8650093948D /* CGUpnpStateVariable.m */; };
+		C49975672088D8650093948D /* CGUpnpStateVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = C49974C42088D8650093948D /* CGUpnpStateVariable.m */; };
+		C49975682088D8650093948D /* CGUpnpControlPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C49974C52088D8650093948D /* CGUpnpControlPoint.m */; };
+		C49975692088D8650093948D /* CGUpnpControlPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C49974C52088D8650093948D /* CGUpnpControlPoint.m */; };
+		C499756A2088D8650093948D /* CGUpnpIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = C49974C62088D8650093948D /* CGUpnpIcon.h */; };
+		C499756B2088D8650093948D /* CGUpnpIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = C49974C62088D8650093948D /* CGUpnpIcon.h */; };
+		C499756C2088D8650093948D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = C49974CA2088D8650093948D /* Makefile */; };
+		C499756D2088D8650093948D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = C49974CA2088D8650093948D /* Makefile */; };
+		C499756E2088D8650093948D /* UPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = C49974D42088D8650093948D /* UPnP.h */; };
+		C499756F2088D8650093948D /* UPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = C49974D42088D8650093948D /* UPnP.h */; };
+		C49975702088D8650093948D /* CGUpnpAction.h in Headers */ = {isa = PBXBuildFile; fileRef = C49974D52088D8650093948D /* CGUpnpAction.h */; };
+		C49975712088D8650093948D /* CGUpnpAction.h in Headers */ = {isa = PBXBuildFile; fileRef = C49974D52088D8650093948D /* CGUpnpAction.h */; };
+		C49975722088D8650093948D /* CGUpnpService.m in Sources */ = {isa = PBXBuildFile; fileRef = C499755D2088D8650093948D /* CGUpnpService.m */; };
+		C49975732088D8650093948D /* CGUpnpService.m in Sources */ = {isa = PBXBuildFile; fileRef = C499755D2088D8650093948D /* CGUpnpService.m */; };
+		C49975742088D8650093948D /* CGUpnpDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C499755E2088D8650093948D /* CGUpnpDevice.m */; };
+		C49975752088D8650093948D /* CGUpnpDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C499755E2088D8650093948D /* CGUpnpDevice.m */; };
+		C49975762088D8650093948D /* CGUpnpControlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = C499755F2088D8650093948D /* CGUpnpControlPoint.h */; };
+		C49975772088D8650093948D /* CGUpnpControlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = C499755F2088D8650093948D /* CGUpnpControlPoint.h */; };
+		C49975782088D8650093948D /* CGUpnpIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = C49975602088D8650093948D /* CGUpnpIcon.m */; };
+		C49975792088D8650093948D /* CGUpnpIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = C49975602088D8650093948D /* CGUpnpIcon.m */; };
+		C499757A2088D8650093948D /* CGUpnpStateVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = C49975612088D8650093948D /* CGUpnpStateVariable.h */; };
+		C499757B2088D8650093948D /* CGUpnpStateVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = C49975612088D8650093948D /* CGUpnpStateVariable.h */; };
+		C499757C2088D8650093948D /* CGUpnpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C49975622088D8650093948D /* CGUpnpAction.m */; };
+		C499757D2088D8650093948D /* CGUpnpAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C49975622088D8650093948D /* CGUpnpAction.m */; };
+		C499757E2088D8650093948D /* CGUpnpService.h in Headers */ = {isa = PBXBuildFile; fileRef = C49975632088D8650093948D /* CGUpnpService.h */; };
+		C499757F2088D8650093948D /* CGUpnpService.h in Headers */ = {isa = PBXBuildFile; fileRef = C49975632088D8650093948D /* CGUpnpService.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -596,19 +598,6 @@
 		219B8E3B131FD1D7003F8530 /* cthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cthread.h; sourceTree = "<group>"; };
 		219B8E3C131FD1D7003F8530 /* ctime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctime.h; sourceTree = "<group>"; };
 		219B8E3E131FD1D7003F8530 /* cxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxml.h; sourceTree = "<group>"; };
-		A49896FC1553D29F0004DD81 /* CGUpnpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAction.h; sourceTree = "<group>"; };
-		A49896FD1553D29F0004DD81 /* CGUpnpAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpAction.m; sourceTree = "<group>"; };
-		A49896FE1553D29F0004DD81 /* CGUpnpControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpControlPoint.h; sourceTree = "<group>"; };
-		A49896FF1553D29F0004DD81 /* CGUpnpControlPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpControlPoint.m; sourceTree = "<group>"; };
-		A49897001553D29F0004DD81 /* CGUpnpDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpDevice.h; sourceTree = "<group>"; };
-		A49897011553D29F0004DD81 /* CGUpnpDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpDevice.m; sourceTree = "<group>"; };
-		A49897021553D29F0004DD81 /* CGUpnpIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpIcon.h; sourceTree = "<group>"; };
-		A49897031553D29F0004DD81 /* CGUpnpIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpIcon.m; sourceTree = "<group>"; };
-		A49897041553D29F0004DD81 /* CGUpnpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpService.h; sourceTree = "<group>"; };
-		A49897051553D29F0004DD81 /* CGUpnpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpService.m; sourceTree = "<group>"; };
-		A49897061553D29F0004DD81 /* CGUpnpStateVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpStateVariable.h; sourceTree = "<group>"; };
-		A49897071553D29F0004DD81 /* CGUpnpStateVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpStateVariable.m; sourceTree = "<group>"; };
-		A49897081553D29F0004DD81 /* UPnP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnP.h; sourceTree = "<group>"; };
 		A49897431553D56B0004DD81 /* chttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chttp.h; sourceTree = "<group>"; };
 		A49897451553D56B0004DD81 /* cfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfile.h; sourceTree = "<group>"; };
 		A49897471553D56B0004DD81 /* cinterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cinterface.h; sourceTree = "<group>"; };
@@ -697,6 +686,164 @@
 		C403AE61208889D70050A94E /* libclinkc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libclinkc.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C403AE8C20888F020050A94E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
 		C45BAABE2080D803009AD00A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		C49974C32088D8650093948D /* CGUpnpDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpDevice.h; sourceTree = "<group>"; };
+		C49974C42088D8650093948D /* CGUpnpStateVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpStateVariable.m; sourceTree = "<group>"; };
+		C49974C52088D8650093948D /* CGUpnpControlPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpControlPoint.m; sourceTree = "<group>"; };
+		C49974C62088D8650093948D /* CGUpnpIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpIcon.h; sourceTree = "<group>"; };
+		C49974C82088D8650093948D /* interface_c_g_upnp_control_point.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = interface_c_g_upnp_control_point.tex; sourceTree = "<group>"; };
+		C49974C92088D8650093948D /* refman.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = refman.tex; sourceTree = "<group>"; };
+		C49974CA2088D8650093948D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C49974CB2088D8650093948D /* interface_c_g_upnp_service.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = interface_c_g_upnp_service.tex; sourceTree = "<group>"; };
+		C49974CC2088D8650093948D /* interface_c_g_upnp_icon.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = interface_c_g_upnp_icon.tex; sourceTree = "<group>"; };
+		C49974CD2088D8650093948D /* doxygen.sty */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxygen.sty; sourceTree = "<group>"; };
+		C49974CE2088D8650093948D /* protocol_c_g_upnp_control_point_delegate-p.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "protocol_c_g_upnp_control_point_delegate-p.tex"; sourceTree = "<group>"; };
+		C49974CF2088D8650093948D /* protocol_c_g_upnp_device_delegate-p.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "protocol_c_g_upnp_device_delegate-p.tex"; sourceTree = "<group>"; };
+		C49974D02088D8650093948D /* interface_c_g_upnp_action.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = interface_c_g_upnp_action.tex; sourceTree = "<group>"; };
+		C49974D12088D8650093948D /* annotated.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = annotated.tex; sourceTree = "<group>"; };
+		C49974D22088D8650093948D /* interface_c_g_upnp_device.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = interface_c_g_upnp_device.tex; sourceTree = "<group>"; };
+		C49974D32088D8650093948D /* interface_c_g_upnp_state_variable.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = interface_c_g_upnp_state_variable.tex; sourceTree = "<group>"; };
+		C49974D42088D8650093948D /* UPnP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnP.h; sourceTree = "<group>"; };
+		C49974D52088D8650093948D /* CGUpnpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAction.h; sourceTree = "<group>"; };
+		C49974D72088D8650093948D /* ftv2mnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2mnode.png; sourceTree = "<group>"; };
+		C49974D82088D8650093948D /* doxygen.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = doxygen.css; sourceTree = "<group>"; };
+		C49974D92088D8650093948D /* _u_pn_p_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _u_pn_p_8h_source.html; sourceTree = "<group>"; };
+		C49974DA2088D8650093948D /* ftv2pnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2pnode.png; sourceTree = "<group>"; };
+		C49974DB2088D8650093948D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C49974DC2088D8650093948D /* functions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions.html; sourceTree = "<group>"; };
+		C49974DD2088D8650093948D /* ftv2mlastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2mlastnode.png; sourceTree = "<group>"; };
+		C49974DE2088D8650093948D /* ftv2cl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2cl.png; sourceTree = "<group>"; };
+		C49974DF2088D8650093948D /* class_c_g_upnp_service-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "class_c_g_upnp_service-members.html"; sourceTree = "<group>"; };
+		C49974E02088D8650093948D /* annotated.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = annotated.html; sourceTree = "<group>"; };
+		C49974E12088D8650093948D /* _c_g_upnp_device_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _c_g_upnp_device_8h_source.html; sourceTree = "<group>"; };
+		C49974E22088D8650093948D /* bc_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_s.png; sourceTree = "<group>"; };
+		C49974E32088D8650093948D /* nav_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_g.png; sourceTree = "<group>"; };
+		C49974E42088D8650093948D /* nav_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_f.png; sourceTree = "<group>"; };
+		C49974E52088D8650093948D /* tabs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tabs.css; sourceTree = "<group>"; };
+		C49974E62088D8650093948D /* closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closed.png; sourceTree = "<group>"; };
+		C49974E72088D8650093948D /* class_c_g_upnp_state_variable-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "class_c_g_upnp_state_variable-members.html"; sourceTree = "<group>"; };
+		C49974E82088D8650093948D /* class_c_g_upnp_action-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "class_c_g_upnp_action-members.html"; sourceTree = "<group>"; };
+		C49974E92088D8650093948D /* _c_g_upnp_state_variable_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _c_g_upnp_state_variable_8h_source.html; sourceTree = "<group>"; };
+		C49974EA2088D8650093948D /* ftv2folderclosed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2folderclosed.png; sourceTree = "<group>"; };
+		C49974EB2088D8650093948D /* doxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doxygen.png; sourceTree = "<group>"; };
+		C49974EC2088D8650093948D /* tab_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_s.png; sourceTree = "<group>"; };
+		C49974ED2088D8650093948D /* files.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = files.html; sourceTree = "<group>"; };
+		C49974EE2088D8650093948D /* tab_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_a.png; sourceTree = "<group>"; };
+		C49974EF2088D8650093948D /* _c_g_upnp_icon_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _c_g_upnp_icon_8h_source.html; sourceTree = "<group>"; };
+		C49974F02088D8650093948D /* functions_func.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func.html; sourceTree = "<group>"; };
+		C49974F12088D8650093948D /* tab_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_b.png; sourceTree = "<group>"; };
+		C49974F22088D8650093948D /* ftv2link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2link.png; sourceTree = "<group>"; };
+		C49974F32088D8650093948D /* bdwn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bdwn.png; sourceTree = "<group>"; };
+		C49974F42088D8650093948D /* protocol_c_g_upnp_device_delegate-p-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "protocol_c_g_upnp_device_delegate-p-members.html"; sourceTree = "<group>"; };
+		C49974F62088D8650093948D /* functions_6c.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_6c.js; sourceTree = "<group>"; };
+		C49974F72088D8650093948D /* functions_64.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_64.js; sourceTree = "<group>"; };
+		C49974F82088D8650093948D /* all_68.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_68.js; sourceTree = "<group>"; };
+		C49974F92088D8650093948D /* search_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_r.png; sourceTree = "<group>"; };
+		C49974FA2088D8650093948D /* functions_70.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_70.js; sourceTree = "<group>"; };
+		C49974FB2088D8650093948D /* all_76.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_76.html; sourceTree = "<group>"; };
+		C49974FC2088D8650093948D /* functions_76.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_76.html; sourceTree = "<group>"; };
+		C49974FD2088D8650093948D /* functions_61.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_61.html; sourceTree = "<group>"; };
+		C49974FE2088D8650093948D /* functions_71.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_71.js; sourceTree = "<group>"; };
+		C49974FF2088D8650093948D /* functions_77.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_77.html; sourceTree = "<group>"; };
+		C49975002088D8650093948D /* all_77.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_77.html; sourceTree = "<group>"; };
+		C49975012088D8650093948D /* functions_61.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_61.js; sourceTree = "<group>"; };
+		C49975022088D8650093948D /* all_61.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_61.html; sourceTree = "<group>"; };
+		C49975032088D8650093948D /* functions_75.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_75.js; sourceTree = "<group>"; };
+		C49975042088D8650093948D /* search.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = search.css; sourceTree = "<group>"; };
+		C49975052088D8650093948D /* all_69.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_69.js; sourceTree = "<group>"; };
+		C49975062088D8650093948D /* all_6e.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_6e.js; sourceTree = "<group>"; };
+		C49975072088D8650093948D /* all_66.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_66.html; sourceTree = "<group>"; };
+		C49975082088D8650093948D /* all_70.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_70.html; sourceTree = "<group>"; };
+		C49975092088D8650093948D /* functions_70.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_70.html; sourceTree = "<group>"; };
+		C499750A2088D8650093948D /* functions_66.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_66.html; sourceTree = "<group>"; };
+		C499750B2088D8650093948D /* all_76.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_76.js; sourceTree = "<group>"; };
+		C499750C2088D8650093948D /* all_66.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_66.js; sourceTree = "<group>"; };
+		C499750D2088D8650093948D /* all_77.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_77.js; sourceTree = "<group>"; };
+		C499750E2088D8650093948D /* all_67.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_67.js; sourceTree = "<group>"; };
+		C499750F2088D8650093948D /* functions_67.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_67.html; sourceTree = "<group>"; };
+		C49975102088D8650093948D /* all_6d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_6d.js; sourceTree = "<group>"; };
+		C49975112088D8650093948D /* all_73.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_73.js; sourceTree = "<group>"; };
+		C49975122088D8650093948D /* functions_71.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_71.html; sourceTree = "<group>"; };
+		C49975132088D8650093948D /* all_71.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_71.html; sourceTree = "<group>"; };
+		C49975142088D8650093948D /* all_63.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_63.js; sourceTree = "<group>"; };
+		C49975152088D8650093948D /* all_67.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_67.html; sourceTree = "<group>"; };
+		C49975162088D8650093948D /* functions_64.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_64.html; sourceTree = "<group>"; };
+		C49975172088D8650093948D /* all_6c.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_6c.js; sourceTree = "<group>"; };
+		C49975182088D8650093948D /* all_64.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_64.js; sourceTree = "<group>"; };
+		C49975192088D8650093948D /* all_64.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_64.html; sourceTree = "<group>"; };
+		C499751A2088D8650093948D /* functions_68.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_68.js; sourceTree = "<group>"; };
+		C499751B2088D8650093948D /* functions_68.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_68.html; sourceTree = "<group>"; };
+		C499751C2088D8650093948D /* functions_6c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_6c.html; sourceTree = "<group>"; };
+		C499751D2088D8650093948D /* all_70.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_70.js; sourceTree = "<group>"; };
+		C499751E2088D8650093948D /* all_6c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_6c.html; sourceTree = "<group>"; };
+		C499751F2088D8650093948D /* all_68.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_68.html; sourceTree = "<group>"; };
+		C49975202088D8650093948D /* all_69.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_69.html; sourceTree = "<group>"; };
+		C49975212088D8650093948D /* all_71.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_71.js; sourceTree = "<group>"; };
+		C49975222088D8650093948D /* all_61.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_61.js; sourceTree = "<group>"; };
+		C49975232088D8650093948D /* functions_69.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_69.html; sourceTree = "<group>"; };
+		C49975242088D8650093948D /* all_73.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_73.html; sourceTree = "<group>"; };
+		C49975252088D8650093948D /* all_75.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = all_75.js; sourceTree = "<group>"; };
+		C49975262088D8650093948D /* functions_73.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_73.html; sourceTree = "<group>"; };
+		C49975272088D8650093948D /* functions_69.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_69.js; sourceTree = "<group>"; };
+		C49975282088D8650093948D /* functions_6e.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_6e.html; sourceTree = "<group>"; };
+		C49975292088D8650093948D /* functions_6e.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_6e.js; sourceTree = "<group>"; };
+		C499752A2088D8650093948D /* classes_63.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classes_63.html; sourceTree = "<group>"; };
+		C499752B2088D8650093948D /* all_6e.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_6e.html; sourceTree = "<group>"; };
+		C499752C2088D8650093948D /* search_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_l.png; sourceTree = "<group>"; };
+		C499752D2088D8650093948D /* functions_76.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_76.js; sourceTree = "<group>"; };
+		C499752E2088D8650093948D /* functions_66.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_66.js; sourceTree = "<group>"; };
+		C499752F2088D8650093948D /* search_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_m.png; sourceTree = "<group>"; };
+		C49975302088D8650093948D /* search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = search.js; sourceTree = "<group>"; };
+		C49975312088D8650093948D /* all_63.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_63.html; sourceTree = "<group>"; };
+		C49975322088D8650093948D /* all_75.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_75.html; sourceTree = "<group>"; };
+		C49975332088D8650093948D /* functions_77.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_77.js; sourceTree = "<group>"; };
+		C49975342088D8650093948D /* functions_75.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_75.html; sourceTree = "<group>"; };
+		C49975352088D8650093948D /* functions_67.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_67.js; sourceTree = "<group>"; };
+		C49975362088D8650093948D /* classes_63.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = classes_63.js; sourceTree = "<group>"; };
+		C49975372088D8650093948D /* mag_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mag_sel.png; sourceTree = "<group>"; };
+		C49975382088D8650093948D /* nomatches.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = nomatches.html; sourceTree = "<group>"; };
+		C49975392088D8650093948D /* functions_6d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_6d.js; sourceTree = "<group>"; };
+		C499753A2088D8650093948D /* all_6d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = all_6d.html; sourceTree = "<group>"; };
+		C499753B2088D8650093948D /* functions_73.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions_73.js; sourceTree = "<group>"; };
+		C499753C2088D8650093948D /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		C499753D2088D8650093948D /* functions_6d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_6d.html; sourceTree = "<group>"; };
+		C499753E2088D8650093948D /* _c_g_upnp_control_point_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _c_g_upnp_control_point_8h_source.html; sourceTree = "<group>"; };
+		C499753F2088D8650093948D /* protocol_c_g_upnp_control_point_delegate-p-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "protocol_c_g_upnp_control_point_delegate-p-members.html"; sourceTree = "<group>"; };
+		C49975402088D8650093948D /* ftv2folderopen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2folderopen.png; sourceTree = "<group>"; };
+		C49975412088D8650093948D /* class_c_g_upnp_icon-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "class_c_g_upnp_icon-members.html"; sourceTree = "<group>"; };
+		C49975422088D8650093948D /* _c_g_upnp_service_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _c_g_upnp_service_8h_source.html; sourceTree = "<group>"; };
+		C49975432088D8650093948D /* protocol_c_g_upnp_control_point_delegate-p.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "protocol_c_g_upnp_control_point_delegate-p.html"; sourceTree = "<group>"; };
+		C49975442088D8650093948D /* interface_c_g_upnp_control_point.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interface_c_g_upnp_control_point.html; sourceTree = "<group>"; };
+		C49975452088D8650093948D /* nav_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_h.png; sourceTree = "<group>"; };
+		C49975462088D8650093948D /* ftv2vertline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2vertline.png; sourceTree = "<group>"; };
+		C49975472088D8650093948D /* interface_c_g_upnp_action.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interface_c_g_upnp_action.html; sourceTree = "<group>"; };
+		C49975482088D8650093948D /* tab_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_h.png; sourceTree = "<group>"; };
+		C49975492088D8650093948D /* classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classes.html; sourceTree = "<group>"; };
+		C499754A2088D8650093948D /* protocol_c_g_upnp_device_delegate-p.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "protocol_c_g_upnp_device_delegate-p.html"; sourceTree = "<group>"; };
+		C499754B2088D8650093948D /* interface_c_g_upnp_icon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interface_c_g_upnp_icon.html; sourceTree = "<group>"; };
+		C499754C2088D8650093948D /* ftv2node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2node.png; sourceTree = "<group>"; };
+		C499754D2088D8650093948D /* interface_c_g_upnp_state_variable.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interface_c_g_upnp_state_variable.html; sourceTree = "<group>"; };
+		C499754E2088D8650093948D /* ftv2blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2blank.png; sourceTree = "<group>"; };
+		C499754F2088D8650093948D /* ftv2doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2doc.png; sourceTree = "<group>"; };
+		C49975502088D8650093948D /* ftv2lastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2lastnode.png; sourceTree = "<group>"; };
+		C49975512088D8650093948D /* interface_c_g_upnp_service.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interface_c_g_upnp_service.html; sourceTree = "<group>"; };
+		C49975522088D8650093948D /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
+		C49975532088D8650093948D /* interface_c_g_upnp_device.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interface_c_g_upnp_device.html; sourceTree = "<group>"; };
+		C49975542088D8650093948D /* class_c_g_upnp_device-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "class_c_g_upnp_device-members.html"; sourceTree = "<group>"; };
+		C49975552088D8650093948D /* _c_g_upnp_action_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _c_g_upnp_action_8h_source.html; sourceTree = "<group>"; };
+		C49975562088D8650093948D /* ftv2ns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2ns.png; sourceTree = "<group>"; };
+		C49975572088D8650093948D /* ftv2splitbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2splitbar.png; sourceTree = "<group>"; };
+		C49975582088D8650093948D /* dynsections.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dynsections.js; sourceTree = "<group>"; };
+		C49975592088D8650093948D /* class_c_g_upnp_control_point-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "class_c_g_upnp_control_point-members.html"; sourceTree = "<group>"; };
+		C499755A2088D8650093948D /* ftv2mo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2mo.png; sourceTree = "<group>"; };
+		C499755B2088D8650093948D /* ftv2plastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2plastnode.png; sourceTree = "<group>"; };
+		C499755C2088D8650093948D /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		C499755D2088D8650093948D /* CGUpnpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpService.m; sourceTree = "<group>"; };
+		C499755E2088D8650093948D /* CGUpnpDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpDevice.m; sourceTree = "<group>"; };
+		C499755F2088D8650093948D /* CGUpnpControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpControlPoint.h; sourceTree = "<group>"; };
+		C49975602088D8650093948D /* CGUpnpIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpIcon.m; sourceTree = "<group>"; };
+		C49975612088D8650093948D /* CGUpnpStateVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpStateVariable.h; sourceTree = "<group>"; };
+		C49975622088D8650093948D /* CGUpnpAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUpnpAction.m; sourceTree = "<group>"; };
+		C49975632088D8650093948D /* CGUpnpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpService.h; sourceTree = "<group>"; };
 		C49A3DC02085C94F00FC6053 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libclinkc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libclinkc.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -737,8 +884,8 @@
 			children = (
 				A4A6697615553BEF00AED3AF /* wrapper */,
 				A4BB106215552F5000999795 /* src */,
+				C49974C02088D8650093948D /* wrapper */,
 				A49897401553D56B0004DD81 /* include */,
-				A49896F91553D29F0004DD81 /* wrapper */,
 				21529DED14226C2D0099BAB1 /* clinkc */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -1100,42 +1247,6 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		A49896F91553D29F0004DD81 /* wrapper */ = {
-			isa = PBXGroup;
-			children = (
-				A49896FA1553D29F0004DD81 /* objc */,
-			);
-			path = wrapper;
-			sourceTree = "<group>";
-		};
-		A49896FA1553D29F0004DD81 /* objc */ = {
-			isa = PBXGroup;
-			children = (
-				A49896FB1553D29F0004DD81 /* CyberLink */,
-			);
-			path = objc;
-			sourceTree = "<group>";
-		};
-		A49896FB1553D29F0004DD81 /* CyberLink */ = {
-			isa = PBXGroup;
-			children = (
-				A49896FC1553D29F0004DD81 /* CGUpnpAction.h */,
-				A49896FD1553D29F0004DD81 /* CGUpnpAction.m */,
-				A49896FE1553D29F0004DD81 /* CGUpnpControlPoint.h */,
-				A49896FF1553D29F0004DD81 /* CGUpnpControlPoint.m */,
-				A49897001553D29F0004DD81 /* CGUpnpDevice.h */,
-				A49897011553D29F0004DD81 /* CGUpnpDevice.m */,
-				A49897021553D29F0004DD81 /* CGUpnpIcon.h */,
-				A49897031553D29F0004DD81 /* CGUpnpIcon.m */,
-				A49897041553D29F0004DD81 /* CGUpnpService.h */,
-				A49897051553D29F0004DD81 /* CGUpnpService.m */,
-				A49897061553D29F0004DD81 /* CGUpnpStateVariable.h */,
-				A49897071553D29F0004DD81 /* CGUpnpStateVariable.m */,
-				A49897081553D29F0004DD81 /* UPnP.h */,
-			);
-			path = CyberLink;
-			sourceTree = "<group>";
-		};
 		A49897401553D56B0004DD81 /* include */ = {
 			isa = PBXGroup;
 			children = (
@@ -1393,6 +1504,212 @@
 			path = server;
 			sourceTree = "<group>";
 		};
+		C49974C02088D8650093948D /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C49974C12088D8650093948D /* objc */,
+			);
+			name = wrapper;
+			path = ../../../wrapper;
+			sourceTree = "<group>";
+		};
+		C49974C12088D8650093948D /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				C49974C22088D8650093948D /* CyberLink */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		C49974C22088D8650093948D /* CyberLink */ = {
+			isa = PBXGroup;
+			children = (
+				C49974C32088D8650093948D /* CGUpnpDevice.h */,
+				C49974C42088D8650093948D /* CGUpnpStateVariable.m */,
+				C49974C52088D8650093948D /* CGUpnpControlPoint.m */,
+				C49974C62088D8650093948D /* CGUpnpIcon.h */,
+				C49974C72088D8650093948D /* latex */,
+				C49974D42088D8650093948D /* UPnP.h */,
+				C49974D52088D8650093948D /* CGUpnpAction.h */,
+				C49974D62088D8650093948D /* html */,
+				C499755D2088D8650093948D /* CGUpnpService.m */,
+				C499755E2088D8650093948D /* CGUpnpDevice.m */,
+				C499755F2088D8650093948D /* CGUpnpControlPoint.h */,
+				C49975602088D8650093948D /* CGUpnpIcon.m */,
+				C49975612088D8650093948D /* CGUpnpStateVariable.h */,
+				C49975622088D8650093948D /* CGUpnpAction.m */,
+				C49975632088D8650093948D /* CGUpnpService.h */,
+			);
+			path = CyberLink;
+			sourceTree = "<group>";
+		};
+		C49974C72088D8650093948D /* latex */ = {
+			isa = PBXGroup;
+			children = (
+				C49974C82088D8650093948D /* interface_c_g_upnp_control_point.tex */,
+				C49974C92088D8650093948D /* refman.tex */,
+				C49974CA2088D8650093948D /* Makefile */,
+				C49974CB2088D8650093948D /* interface_c_g_upnp_service.tex */,
+				C49974CC2088D8650093948D /* interface_c_g_upnp_icon.tex */,
+				C49974CD2088D8650093948D /* doxygen.sty */,
+				C49974CE2088D8650093948D /* protocol_c_g_upnp_control_point_delegate-p.tex */,
+				C49974CF2088D8650093948D /* protocol_c_g_upnp_device_delegate-p.tex */,
+				C49974D02088D8650093948D /* interface_c_g_upnp_action.tex */,
+				C49974D12088D8650093948D /* annotated.tex */,
+				C49974D22088D8650093948D /* interface_c_g_upnp_device.tex */,
+				C49974D32088D8650093948D /* interface_c_g_upnp_state_variable.tex */,
+			);
+			path = latex;
+			sourceTree = "<group>";
+		};
+		C49974D62088D8650093948D /* html */ = {
+			isa = PBXGroup;
+			children = (
+				C49974D72088D8650093948D /* ftv2mnode.png */,
+				C49974D82088D8650093948D /* doxygen.css */,
+				C49974D92088D8650093948D /* _u_pn_p_8h_source.html */,
+				C49974DA2088D8650093948D /* ftv2pnode.png */,
+				C49974DB2088D8650093948D /* index.html */,
+				C49974DC2088D8650093948D /* functions.html */,
+				C49974DD2088D8650093948D /* ftv2mlastnode.png */,
+				C49974DE2088D8650093948D /* ftv2cl.png */,
+				C49974DF2088D8650093948D /* class_c_g_upnp_service-members.html */,
+				C49974E02088D8650093948D /* annotated.html */,
+				C49974E12088D8650093948D /* _c_g_upnp_device_8h_source.html */,
+				C49974E22088D8650093948D /* bc_s.png */,
+				C49974E32088D8650093948D /* nav_g.png */,
+				C49974E42088D8650093948D /* nav_f.png */,
+				C49974E52088D8650093948D /* tabs.css */,
+				C49974E62088D8650093948D /* closed.png */,
+				C49974E72088D8650093948D /* class_c_g_upnp_state_variable-members.html */,
+				C49974E82088D8650093948D /* class_c_g_upnp_action-members.html */,
+				C49974E92088D8650093948D /* _c_g_upnp_state_variable_8h_source.html */,
+				C49974EA2088D8650093948D /* ftv2folderclosed.png */,
+				C49974EB2088D8650093948D /* doxygen.png */,
+				C49974EC2088D8650093948D /* tab_s.png */,
+				C49974ED2088D8650093948D /* files.html */,
+				C49974EE2088D8650093948D /* tab_a.png */,
+				C49974EF2088D8650093948D /* _c_g_upnp_icon_8h_source.html */,
+				C49974F02088D8650093948D /* functions_func.html */,
+				C49974F12088D8650093948D /* tab_b.png */,
+				C49974F22088D8650093948D /* ftv2link.png */,
+				C49974F32088D8650093948D /* bdwn.png */,
+				C49974F42088D8650093948D /* protocol_c_g_upnp_device_delegate-p-members.html */,
+				C49974F52088D8650093948D /* search */,
+				C499753E2088D8650093948D /* _c_g_upnp_control_point_8h_source.html */,
+				C499753F2088D8650093948D /* protocol_c_g_upnp_control_point_delegate-p-members.html */,
+				C49975402088D8650093948D /* ftv2folderopen.png */,
+				C49975412088D8650093948D /* class_c_g_upnp_icon-members.html */,
+				C49975422088D8650093948D /* _c_g_upnp_service_8h_source.html */,
+				C49975432088D8650093948D /* protocol_c_g_upnp_control_point_delegate-p.html */,
+				C49975442088D8650093948D /* interface_c_g_upnp_control_point.html */,
+				C49975452088D8650093948D /* nav_h.png */,
+				C49975462088D8650093948D /* ftv2vertline.png */,
+				C49975472088D8650093948D /* interface_c_g_upnp_action.html */,
+				C49975482088D8650093948D /* tab_h.png */,
+				C49975492088D8650093948D /* classes.html */,
+				C499754A2088D8650093948D /* protocol_c_g_upnp_device_delegate-p.html */,
+				C499754B2088D8650093948D /* interface_c_g_upnp_icon.html */,
+				C499754C2088D8650093948D /* ftv2node.png */,
+				C499754D2088D8650093948D /* interface_c_g_upnp_state_variable.html */,
+				C499754E2088D8650093948D /* ftv2blank.png */,
+				C499754F2088D8650093948D /* ftv2doc.png */,
+				C49975502088D8650093948D /* ftv2lastnode.png */,
+				C49975512088D8650093948D /* interface_c_g_upnp_service.html */,
+				C49975522088D8650093948D /* open.png */,
+				C49975532088D8650093948D /* interface_c_g_upnp_device.html */,
+				C49975542088D8650093948D /* class_c_g_upnp_device-members.html */,
+				C49975552088D8650093948D /* _c_g_upnp_action_8h_source.html */,
+				C49975562088D8650093948D /* ftv2ns.png */,
+				C49975572088D8650093948D /* ftv2splitbar.png */,
+				C49975582088D8650093948D /* dynsections.js */,
+				C49975592088D8650093948D /* class_c_g_upnp_control_point-members.html */,
+				C499755A2088D8650093948D /* ftv2mo.png */,
+				C499755B2088D8650093948D /* ftv2plastnode.png */,
+				C499755C2088D8650093948D /* jquery.js */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		C49974F52088D8650093948D /* search */ = {
+			isa = PBXGroup;
+			children = (
+				C49974F62088D8650093948D /* functions_6c.js */,
+				C49974F72088D8650093948D /* functions_64.js */,
+				C49974F82088D8650093948D /* all_68.js */,
+				C49974F92088D8650093948D /* search_r.png */,
+				C49974FA2088D8650093948D /* functions_70.js */,
+				C49974FB2088D8650093948D /* all_76.html */,
+				C49974FC2088D8650093948D /* functions_76.html */,
+				C49974FD2088D8650093948D /* functions_61.html */,
+				C49974FE2088D8650093948D /* functions_71.js */,
+				C49974FF2088D8650093948D /* functions_77.html */,
+				C49975002088D8650093948D /* all_77.html */,
+				C49975012088D8650093948D /* functions_61.js */,
+				C49975022088D8650093948D /* all_61.html */,
+				C49975032088D8650093948D /* functions_75.js */,
+				C49975042088D8650093948D /* search.css */,
+				C49975052088D8650093948D /* all_69.js */,
+				C49975062088D8650093948D /* all_6e.js */,
+				C49975072088D8650093948D /* all_66.html */,
+				C49975082088D8650093948D /* all_70.html */,
+				C49975092088D8650093948D /* functions_70.html */,
+				C499750A2088D8650093948D /* functions_66.html */,
+				C499750B2088D8650093948D /* all_76.js */,
+				C499750C2088D8650093948D /* all_66.js */,
+				C499750D2088D8650093948D /* all_77.js */,
+				C499750E2088D8650093948D /* all_67.js */,
+				C499750F2088D8650093948D /* functions_67.html */,
+				C49975102088D8650093948D /* all_6d.js */,
+				C49975112088D8650093948D /* all_73.js */,
+				C49975122088D8650093948D /* functions_71.html */,
+				C49975132088D8650093948D /* all_71.html */,
+				C49975142088D8650093948D /* all_63.js */,
+				C49975152088D8650093948D /* all_67.html */,
+				C49975162088D8650093948D /* functions_64.html */,
+				C49975172088D8650093948D /* all_6c.js */,
+				C49975182088D8650093948D /* all_64.js */,
+				C49975192088D8650093948D /* all_64.html */,
+				C499751A2088D8650093948D /* functions_68.js */,
+				C499751B2088D8650093948D /* functions_68.html */,
+				C499751C2088D8650093948D /* functions_6c.html */,
+				C499751D2088D8650093948D /* all_70.js */,
+				C499751E2088D8650093948D /* all_6c.html */,
+				C499751F2088D8650093948D /* all_68.html */,
+				C49975202088D8650093948D /* all_69.html */,
+				C49975212088D8650093948D /* all_71.js */,
+				C49975222088D8650093948D /* all_61.js */,
+				C49975232088D8650093948D /* functions_69.html */,
+				C49975242088D8650093948D /* all_73.html */,
+				C49975252088D8650093948D /* all_75.js */,
+				C49975262088D8650093948D /* functions_73.html */,
+				C49975272088D8650093948D /* functions_69.js */,
+				C49975282088D8650093948D /* functions_6e.html */,
+				C49975292088D8650093948D /* functions_6e.js */,
+				C499752A2088D8650093948D /* classes_63.html */,
+				C499752B2088D8650093948D /* all_6e.html */,
+				C499752C2088D8650093948D /* search_l.png */,
+				C499752D2088D8650093948D /* functions_76.js */,
+				C499752E2088D8650093948D /* functions_66.js */,
+				C499752F2088D8650093948D /* search_m.png */,
+				C49975302088D8650093948D /* search.js */,
+				C49975312088D8650093948D /* all_63.html */,
+				C49975322088D8650093948D /* all_75.html */,
+				C49975332088D8650093948D /* functions_77.js */,
+				C49975342088D8650093948D /* functions_75.html */,
+				C49975352088D8650093948D /* functions_67.js */,
+				C49975362088D8650093948D /* classes_63.js */,
+				C49975372088D8650093948D /* mag_sel.png */,
+				C49975382088D8650093948D /* nomatches.html */,
+				C49975392088D8650093948D /* functions_6d.js */,
+				C499753A2088D8650093948D /* all_6d.html */,
+				C499753B2088D8650093948D /* functions_73.js */,
+				C499753C2088D8650093948D /* close.png */,
+				C499753D2088D8650093948D /* functions_6d.html */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1400,14 +1717,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C403AD79208889D70050A94E /* UPnP.h in Headers */,
 				C403AD7A208889D70050A94E /* UPnPAV.h in Headers */,
-				C403AD7B208889D70050A94E /* CGUpnpDevice.h in Headers */,
-				C403AD7C208889D70050A94E /* CGUpnpIcon.h in Headers */,
-				C403AD7D208889D70050A94E /* CGUpnpService.h in Headers */,
-				C403AD7E208889D70050A94E /* CGUpnpStateVariable.h in Headers */,
-				C403AD7F208889D70050A94E /* CGUpnpControlPoint.h in Headers */,
-				C403AD80208889D70050A94E /* CGUpnpAction.h in Headers */,
 				C403AD81208889D70050A94E /* CGUpnpAvConstants.h in Headers */,
 				C403AD82208889D70050A94E /* CGUpnpAvContainer.h in Headers */,
 				C403AD83208889D70050A94E /* CGUpnpAvContentDirectory.h in Headers */,
@@ -1430,10 +1740,12 @@
 				C403AD94208889D70050A94E /* ccontrol.h in Headers */,
 				C403AD95208889D70050A94E /* curi.h in Headers */,
 				C403AD96208889D70050A94E /* curl.h in Headers */,
+				C49975712088D8650093948D /* CGUpnpAction.h in Headers */,
 				C403AD97208889D70050A94E /* csoap.h in Headers */,
 				C403AD98208889D70050A94E /* typedef.h in Headers */,
 				C403AD99208889D70050A94E /* caction.h in Headers */,
 				C403AD9A208889D70050A94E /* cargument.h in Headers */,
+				C499757F2088D8650093948D /* CGUpnpService.h in Headers */,
 				C403AD9B208889D70050A94E /* ccontrolpoint.h in Headers */,
 				C403AD9C208889D70050A94E /* cdevice.h in Headers */,
 				C403AD9D208889D70050A94E /* cicon.h in Headers */,
@@ -1468,9 +1780,12 @@
 				C403ADBA208889D70050A94E /* csoap.h in Headers */,
 				C403ADBB208889D70050A94E /* typedef.h in Headers */,
 				C403ADBC208889D70050A94E /* caction.h in Headers */,
+				C49975772088D8650093948D /* CGUpnpControlPoint.h in Headers */,
 				C403ADBD208889D70050A94E /* cargument.h in Headers */,
+				C499756B2088D8650093948D /* CGUpnpIcon.h in Headers */,
 				C403ADBE208889D70050A94E /* ccontrolpoint.h in Headers */,
 				C403ADBF208889D70050A94E /* cdevice.h in Headers */,
+				C499756F2088D8650093948D /* UPnP.h in Headers */,
 				C403ADC0208889D70050A94E /* cicon.h in Headers */,
 				C403ADC1208889D70050A94E /* ccontrol.h in Headers */,
 				C403ADC2208889D70050A94E /* cservice.h in Headers */,
@@ -1478,11 +1793,13 @@
 				C403ADC4208889D70050A94E /* cupnp.h in Headers */,
 				C403ADC5208889D70050A94E /* cupnp_function.h in Headers */,
 				C403ADC6208889D70050A94E /* cupnp_limit.h in Headers */,
+				C499757B2088D8650093948D /* CGUpnpStateVariable.h in Headers */,
 				C403ADC7208889D70050A94E /* cupnp_status.h in Headers */,
 				C403ADC8208889D70050A94E /* cevent.h in Headers */,
 				C403ADC9208889D70050A94E /* cnotify.h in Headers */,
 				C403ADCA208889D70050A94E /* cproperty.h in Headers */,
 				C403ADCB208889D70050A94E /* csubscriber.h in Headers */,
+				C49975652088D8650093948D /* CGUpnpDevice.h in Headers */,
 				C403ADCC208889D70050A94E /* csubscription.h in Headers */,
 				C403ADCD208889D70050A94E /* cssdp.h in Headers */,
 				C403ADCE208889D70050A94E /* cssdp_server.h in Headers */,
@@ -1502,14 +1819,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A49897151553D29F0004DD81 /* UPnP.h in Headers */,
 				A4A669B015553BEF00AED3AF /* UPnPAV.h in Headers */,
-				A498970D1553D29F0004DD81 /* CGUpnpDevice.h in Headers */,
-				A498970F1553D29F0004DD81 /* CGUpnpIcon.h in Headers */,
-				A49897111553D29F0004DD81 /* CGUpnpService.h in Headers */,
-				A49897131553D29F0004DD81 /* CGUpnpStateVariable.h in Headers */,
-				A498970B1553D29F0004DD81 /* CGUpnpControlPoint.h in Headers */,
-				A49897091553D29F0004DD81 /* CGUpnpAction.h in Headers */,
 				A4A6699515553BEF00AED3AF /* CGUpnpAvConstants.h in Headers */,
 				A4A6699615553BEF00AED3AF /* CGUpnpAvContainer.h in Headers */,
 				A4A6699815553BEF00AED3AF /* CGUpnpAvContentDirectory.h in Headers */,
@@ -1532,10 +1842,12 @@
 				219B8E4E131FD1D7003F8530 /* ccontrol.h in Headers */,
 				219B8E45131FD1D7003F8530 /* curi.h in Headers */,
 				219B8E46131FD1D7003F8530 /* curl.h in Headers */,
+				C49975702088D8650093948D /* CGUpnpAction.h in Headers */,
 				219B8E47131FD1D7003F8530 /* csoap.h in Headers */,
 				219B8E48131FD1D7003F8530 /* typedef.h in Headers */,
 				219B8E49131FD1D7003F8530 /* caction.h in Headers */,
 				219B8E4A131FD1D7003F8530 /* cargument.h in Headers */,
+				C499757E2088D8650093948D /* CGUpnpService.h in Headers */,
 				219B8E4B131FD1D7003F8530 /* ccontrolpoint.h in Headers */,
 				219B8E4C131FD1D7003F8530 /* cdevice.h in Headers */,
 				219B8E4D131FD1D7003F8530 /* cicon.h in Headers */,
@@ -1570,9 +1882,12 @@
 				A49897781553D56B0004DD81 /* csoap.h in Headers */,
 				A49897791553D56B0004DD81 /* typedef.h in Headers */,
 				A498977A1553D56B0004DD81 /* caction.h in Headers */,
+				C49975762088D8650093948D /* CGUpnpControlPoint.h in Headers */,
 				A498977B1553D56B0004DD81 /* cargument.h in Headers */,
+				C499756A2088D8650093948D /* CGUpnpIcon.h in Headers */,
 				A498977C1553D56B0004DD81 /* ccontrolpoint.h in Headers */,
 				A498977D1553D56B0004DD81 /* cdevice.h in Headers */,
+				C499756E2088D8650093948D /* UPnP.h in Headers */,
 				A498977E1553D56B0004DD81 /* cicon.h in Headers */,
 				A498977F1553D56B0004DD81 /* ccontrol.h in Headers */,
 				A49897801553D56B0004DD81 /* cservice.h in Headers */,
@@ -1580,11 +1895,13 @@
 				A49897821553D56B0004DD81 /* cupnp.h in Headers */,
 				A49897831553D56B0004DD81 /* cupnp_function.h in Headers */,
 				A49897841553D56B0004DD81 /* cupnp_limit.h in Headers */,
+				C499757A2088D8650093948D /* CGUpnpStateVariable.h in Headers */,
 				A49897851553D56B0004DD81 /* cupnp_status.h in Headers */,
 				A49897861553D56B0004DD81 /* cevent.h in Headers */,
 				A49897871553D56B0004DD81 /* cnotify.h in Headers */,
 				A49897881553D56B0004DD81 /* cproperty.h in Headers */,
 				A49897891553D56B0004DD81 /* csubscriber.h in Headers */,
+				C49975642088D8650093948D /* CGUpnpDevice.h in Headers */,
 				A498978A1553D56B0004DD81 /* csubscription.h in Headers */,
 				A498978B1553D56B0004DD81 /* cssdp.h in Headers */,
 				A498978C1553D56B0004DD81 /* cssdp_server.h in Headers */,
@@ -1682,9 +1999,11 @@
 				C403ADE1208889D70050A94E /* chttp_server.c in Sources */,
 				C403ADE2208889D70050A94E /* chttp_server_list.c in Sources */,
 				C403ADE3208889D70050A94E /* cfile.c in Sources */,
+				C49975752088D8650093948D /* CGUpnpDevice.m in Sources */,
 				C403ADE4208889D70050A94E /* cfile_list.c in Sources */,
 				C403ADE5208889D70050A94E /* cdatagram_packet.c in Sources */,
 				C403ADE6208889D70050A94E /* cinterface.c in Sources */,
+				C499757D2088D8650093948D /* CGUpnpAction.m in Sources */,
 				C403ADE7208889D70050A94E /* cinterface_function.c in Sources */,
 				C403ADE8208889D70050A94E /* cinterface_list.c in Sources */,
 				C403ADE9208889D70050A94E /* cnet_function.c in Sources */,
@@ -1711,6 +2030,7 @@
 				C403ADFE208889D70050A94E /* cicon_list.c in Sources */,
 				C403ADFF208889D70050A94E /* caction_ctrl.c in Sources */,
 				C403AE00208889D70050A94E /* caction_request.c in Sources */,
+				C49975732088D8650093948D /* CGUpnpService.m in Sources */,
 				C403AE01208889D70050A94E /* caction_response.c in Sources */,
 				C403AE02208889D70050A94E /* ccontrol_function.c in Sources */,
 				C403AE03208889D70050A94E /* cquery_ctrl.c in Sources */,
@@ -1719,6 +2039,7 @@
 				C403AE06208889D70050A94E /* cservice.c in Sources */,
 				C403AE07208889D70050A94E /* cservice_list.c in Sources */,
 				C403AE08208889D70050A94E /* cservice_notify.c in Sources */,
+				C499756D2088D8650093948D /* Makefile in Sources */,
 				C403AE09208889D70050A94E /* cservice_ssdp_server.c in Sources */,
 				C403AE0A208889D70050A94E /* cservice_std_dcp.c in Sources */,
 				C403AE0B208889D70050A94E /* cservicestate_table.c in Sources */,
@@ -1753,7 +2074,9 @@
 				C403AE28208889D70050A94E /* cmutex.c in Sources */,
 				C403AE29208889D70050A94E /* cstring.c in Sources */,
 				C403AE2A208889D70050A94E /* cstring_function.c in Sources */,
+				C49975672088D8650093948D /* CGUpnpStateVariable.m in Sources */,
 				C403AE2B208889D70050A94E /* cstring_tokenizer.c in Sources */,
+				C49975792088D8650093948D /* CGUpnpIcon.m in Sources */,
 				C403AE2C208889D70050A94E /* cthread.c in Sources */,
 				C403AE2D208889D70050A94E /* cthread_list.c in Sources */,
 				C403AE2E208889D70050A94E /* ctime.c in Sources */,
@@ -1766,15 +2089,10 @@
 				C403AE35208889D70050A94E /* cxml_parser.c in Sources */,
 				C403AE36208889D70050A94E /* cxml_parser_expat.c in Sources */,
 				C403AE37208889D70050A94E /* cxml_parser_libxml2.c in Sources */,
-				C403AE38208889D70050A94E /* CGUpnpAction.m in Sources */,
-				C403AE39208889D70050A94E /* CGUpnpControlPoint.m in Sources */,
-				C403AE3A208889D70050A94E /* CGUpnpDevice.m in Sources */,
-				C403AE3B208889D70050A94E /* CGUpnpIcon.m in Sources */,
-				C403AE3C208889D70050A94E /* CGUpnpService.m in Sources */,
-				C403AE3D208889D70050A94E /* CGUpnpStateVariable.m in Sources */,
 				C403AE3E208889D70050A94E /* ccontent.c in Sources */,
 				C403AE3F208889D70050A94E /* ccontent_list.c in Sources */,
 				C403AE40208889D70050A94E /* cdidl.c in Sources */,
+				C49975692088D8650093948D /* CGUpnpControlPoint.m in Sources */,
 				C403AE41208889D70050A94E /* cmd5.c in Sources */,
 				C403AE42208889D70050A94E /* cprotocolinfo.c in Sources */,
 				C403AE43208889D70050A94E /* cprotocolinfo_list.c in Sources */,
@@ -1819,9 +2137,11 @@
 				219B8DB7131FD1BA003F8530 /* chttp_server.c in Sources */,
 				219B8DB8131FD1BA003F8530 /* chttp_server_list.c in Sources */,
 				219B8DB9131FD1BA003F8530 /* cfile.c in Sources */,
+				C49975742088D8650093948D /* CGUpnpDevice.m in Sources */,
 				219B8DBA131FD1BA003F8530 /* cfile_list.c in Sources */,
 				219B8DBB131FD1BA003F8530 /* cdatagram_packet.c in Sources */,
 				219B8DBC131FD1BA003F8530 /* cinterface.c in Sources */,
+				C499757C2088D8650093948D /* CGUpnpAction.m in Sources */,
 				219B8DBD131FD1BA003F8530 /* cinterface_function.c in Sources */,
 				219B8DBE131FD1BA003F8530 /* cinterface_list.c in Sources */,
 				219B8DBF131FD1BA003F8530 /* cnet_function.c in Sources */,
@@ -1848,6 +2168,7 @@
 				219B8DD4131FD1BA003F8530 /* cicon_list.c in Sources */,
 				219B8DD5131FD1BA003F8530 /* caction_ctrl.c in Sources */,
 				219B8DD6131FD1BA003F8530 /* caction_request.c in Sources */,
+				C49975722088D8650093948D /* CGUpnpService.m in Sources */,
 				219B8DD7131FD1BA003F8530 /* caction_response.c in Sources */,
 				219B8DD8131FD1BA003F8530 /* ccontrol_function.c in Sources */,
 				219B8DD9131FD1BA003F8530 /* cquery_ctrl.c in Sources */,
@@ -1856,6 +2177,7 @@
 				219B8DDC131FD1BA003F8530 /* cservice.c in Sources */,
 				219B8DDD131FD1BA003F8530 /* cservice_list.c in Sources */,
 				219B8DDE131FD1BA003F8530 /* cservice_notify.c in Sources */,
+				C499756C2088D8650093948D /* Makefile in Sources */,
 				219B8DDF131FD1BA003F8530 /* cservice_ssdp_server.c in Sources */,
 				219B8DE0131FD1BA003F8530 /* cservice_std_dcp.c in Sources */,
 				219B8DE1131FD1BA003F8530 /* cservicestate_table.c in Sources */,
@@ -1890,7 +2212,9 @@
 				219B8DFE131FD1BA003F8530 /* cmutex.c in Sources */,
 				219B8DFF131FD1BA003F8530 /* cstring.c in Sources */,
 				219B8E00131FD1BA003F8530 /* cstring_function.c in Sources */,
+				C49975662088D8650093948D /* CGUpnpStateVariable.m in Sources */,
 				219B8E01131FD1BA003F8530 /* cstring_tokenizer.c in Sources */,
+				C49975782088D8650093948D /* CGUpnpIcon.m in Sources */,
 				219B8E02131FD1BA003F8530 /* cthread.c in Sources */,
 				219B8E03131FD1BA003F8530 /* cthread_list.c in Sources */,
 				219B8E04131FD1BA003F8530 /* ctime.c in Sources */,
@@ -1903,15 +2227,10 @@
 				219B8E0B131FD1BA003F8530 /* cxml_parser.c in Sources */,
 				219B8E0C131FD1BA003F8530 /* cxml_parser_expat.c in Sources */,
 				219B8E0D131FD1BA003F8530 /* cxml_parser_libxml2.c in Sources */,
-				A498970A1553D29F0004DD81 /* CGUpnpAction.m in Sources */,
-				A498970C1553D29F0004DD81 /* CGUpnpControlPoint.m in Sources */,
-				A498970E1553D29F0004DD81 /* CGUpnpDevice.m in Sources */,
-				A49897101553D29F0004DD81 /* CGUpnpIcon.m in Sources */,
-				A49897121553D29F0004DD81 /* CGUpnpService.m in Sources */,
-				A49897141553D29F0004DD81 /* CGUpnpStateVariable.m in Sources */,
 				A4BB107915552F5000999795 /* ccontent.c in Sources */,
 				A4BB107A15552F5000999795 /* ccontent_list.c in Sources */,
 				A4BB107B15552F5000999795 /* cdidl.c in Sources */,
+				C49975682088D8650093948D /* CGUpnpControlPoint.m in Sources */,
 				A4BB107C15552F5000999795 /* cmd5.c in Sources */,
 				A4BB107D15552F5000999795 /* cprotocolinfo.c in Sources */,
 				A4BB107E15552F5000999795 /* cprotocolinfo_list.c in Sources */,

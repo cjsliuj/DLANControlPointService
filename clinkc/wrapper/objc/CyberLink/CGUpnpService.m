@@ -120,5 +120,7 @@
 	
 	return NO;
 }
-
+- (void) printXMLString{
+    cg_xml_node_print(self.cObject->scpdNodeList);
+}
 @end

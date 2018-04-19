@@ -52,6 +52,17 @@ public class RendererDevice:NSObject{
             completion(ret)
         }
     }
+    public func getVolume(completion: @escaping (_ volume: Int?)->Void){
+        DispatchQueue.global().async { [weak self] in
+            completion(self?._cgRenderer.getVolume())
+        }
+    }
+    public func setVolume(volume: Int, completion: @escaping (_ isSuccess: Bool)->Void){
+        DispatchQueue.global().async { [weak self] in
+            let rs = self?._cgRenderer.setVolume(volume) ?? false
+            completion(rs)
+        }
+    }
     
 //    public func seek(completion: @escaping (_ isSuccess: Bool)->Void){
 //        DispatchQueue.global().async {  [weak self] in
@@ -143,8 +154,8 @@ public class DLNAControlPointService:NSObject, CGUpnpControlPointDelegate{
         }
 //        print("------------------");
 //        let device = _avCtrl.device(forUDN: deviceUdn)!
-//        
-//        print("event: \(event) name: \(device.friendlyName()!) udn: \(device.udn()!) deviceType: \(device.deviceType()!)");
+//        device.printXMLString()
+//        print("event: \(event) name: \(device.friendlyName()!) udn: \(device.udn()!) deviceType: \(device.deviceType()!) url:\(device.urlBase()) purl:\(device.presentationURL())");
 //        for ser: CGUpnpService in (device.services() as! [CGUpnpService]) {
 //            print("serviceType: \(ser.serviceType()!)");
 //        }

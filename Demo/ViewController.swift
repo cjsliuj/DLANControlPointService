@@ -41,10 +41,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let device = _ds[indexPath.row]
         //这里的url 必须是个远程地址
-        _ds[indexPath.row].playAVWithURL(url: "http://192.168.1.2:8080/111.mp4") { (isPerformPlayActionSuccess) in
+        device.playAVWithURL(url: "http://192.168.1.2:8080/111.mp4") { (isPerformPlayActionSuccess) in
             assert(isPerformPlayActionSuccess, "播放失败")
         }
+       
     }
     func onDeviceEvent(event: DeviceEvent, device: RendererDevice) {
         switch event {
@@ -71,6 +73,25 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             }
         }
     }
+    @IBAction func onclickVolumeIncrease(_ sender: Any) {
+        let device = _ds[0]
+        device.getVolume { (volume: Int?) in
+            print("当前音量：\(volume!)")
+            device.setVolume(volume: volume! + 1, completion: { (issuc) in
+                print("设置结果：\(issuc)")
+            })
+        }
+    }
+    @IBAction func onclickVolumeDecrease(_ sender: Any) {
+        let device = _ds[0]
+        device.getVolume { (volume: Int?) in
+            print("当前音量：\(volume!)")
+            device.setVolume(volume: volume! - 1, completion: { (issuc) in
+                print("设置结果：\(issuc)")
+            })
+        }
+    }
+    
     deinit {
         DLNAControlPointService.share.stop()
     }

@@ -186,7 +186,36 @@ enum {
 	
 	return [[[CGUpnpAVPositionInfo alloc] initWithAction:action] autorelease];
 }
-
+- (NSInteger)getVolume{
+    CGUpnpAction *action = [self actionOfService:@"urn:schemas-upnp-org:service:RenderingControl:1" actionName:@"GetVolume"];
+    if (!action) {
+        return nil;
+    }
+    [action setArgumentValue:@"0" forName:@"InstanceID0"];
+    [action setArgumentValue:@"Master" forName:@"Channel"];
+    if (![action post]) {
+        return nil;
+    }
+    NSInteger volume = [[action argumentValueForName:@"CurrentVolume"] integerValue];
+    
+    if (!volume) {
+        return nil;
+    }
+    return volume;
+}
+- (BOOL)setVolume:(NSInteger)volume{
+    CGUpnpAction *action = [self actionOfService:@"urn:schemas-upnp-org:service:RenderingControl:1" actionName:@"SetVolume"];
+    if (!action) {
+        return NO;
+    }
+    [action setArgumentValue:@"0" forName:@"InstanceID0"];
+    [action setArgumentValue:@"Master" forName:@"Channel"];
+    [action setArgumentValue:[NSString stringWithFormat:@"%ld",(long)volume] forName:@"DesiredVolume"];
+    if (![action post]) {
+        return NO;
+    }
+    return YES;
+}
 /*
 - (BOOL)start
 {

@@ -257,5 +257,7 @@ typedef void CgUpnpDevice;
  */
 - (NSString *)absoluteIconUrl:(CGUpnpIcon *)anIcon;
 
-- (void) printXMLString;
+- (CGUpnpAction *)actionOfService:(NSString *)serviceName actionName:(NSString *)actionName;
+
+ - (void) printXMLString;
 @end

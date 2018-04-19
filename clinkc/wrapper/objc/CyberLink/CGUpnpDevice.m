@@ -375,6 +375,12 @@ static BOOL CGUpnpDeviceActionListener(CgUpnpAction *action);
 	cg_string_delete(url);
 	return urlStr;
 }
+- (CGUpnpAction *)actionOfService:(NSString *)serviceName actionName:(NSString *)actionName{
+    CGUpnpService *avTransService = [self getServiceForType:serviceName];
+    if (!avTransService)
+        return nil;
+    return [avTransService getActionForName:actionName];
+}
 - (void) printXMLString{
     cg_xml_node_print(self.cObject->deviceNode);
 }
