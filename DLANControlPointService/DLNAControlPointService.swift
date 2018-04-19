@@ -141,14 +141,14 @@ public class DLNAControlPointService:NSObject, CGUpnpControlPointDelegate{
         if !_isSearching {
             return;
         }
-        print("------------------");
-        let device = _avCtrl.device(forUDN: deviceUdn)!
-        
-        print("event: \(event) name: \(device.friendlyName()!) udn: \(device.udn()!) deviceType: \(device.deviceType()!)");
-        for ser: CGUpnpService in (device.services() as! [CGUpnpService]) {
-            print("serviceType: \(ser.serviceType()!)");
-        }
-        print("-+++++++++++++++++");
+//        print("------------------");
+//        let device = _avCtrl.device(forUDN: deviceUdn)!
+//        
+//        print("event: \(event) name: \(device.friendlyName()!) udn: \(device.udn()!) deviceType: \(device.deviceType()!)");
+//        for ser: CGUpnpService in (device.services() as! [CGUpnpService]) {
+//            print("serviceType: \(ser.serviceType()!)");
+//        }
+//        print("-+++++++++++++++++");
         let hitIdx = rendererDevices.index { (dev) -> Bool in
             return dev.udn == deviceUdn
         }

@@ -20,6 +20,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         DLNAControlPointService.share.start { (isStartAsControlPointSuccess) in
             assert(isStartAsControlPointSuccess, "启动失败")
         }
+        DLNAControlPointService.share.addDelegate(self)
     }
     @IBAction func onClickSearch(_ sender: Any) {
         _searchBtn.isEnabled = false
@@ -41,7 +42,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //这里的url 必须是个远程地址
-        _ds[indexPath.row].playAVWithURL(url: "http://192.168.24.53:8080/video/2.rmvb") { (isPerformPlayActionSuccess) in
+        _ds[indexPath.row].playAVWithURL(url: "http://192.168.1.2:8080/111.mp4") { (isPerformPlayActionSuccess) in
             assert(isPerformPlayActionSuccess, "播放失败")
         }
     }
