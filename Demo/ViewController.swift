@@ -12,6 +12,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     @IBOutlet weak var _tbv: UITableView!
     private var _ds: [RendererDevice] = []
+    @IBOutlet weak var _searchBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         _tbv.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
@@ -20,29 +21,51 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         }
     }
     @IBAction func onClickSearch(_ sender: Any) {
-        
+        _searchBtn.isEnabled = false
+        _searchBtn.setTitle("正在搜索...", for: .normal)
+        DLNAControlPointService.share.searchRenderDevices(timeoutInterval: 10) { [weak self] in
+            self?._searchBtn.isEnabled = true
+            self?._searchBtn.setTitle("开始搜索设备", for: .normal)
+        }
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return 1;
+        return _ds.count;
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = _ds[indexPath.row].friendlyName
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        _ds[indexPath.row].playAVWithURL(url: "http://192.168.24.53:8080/video/2.rmvb") { (isPerformPlayActionSuc) in
+            
+        }
+    }
     func onDeviceEvent(event: DeviceEvent, device: RendererDevice) {
         switch event {
         case .add:
             if !_ds.contains(device){
                 _ds.append(device)
+                _tbv.reloadData()
             }
         case .invalid, .remove:
             if let hitIndex = _ds.index(of: device){
-
+                _ds.remove(at: hitIndex)
+                _tbv.reloadData()
             }
         case .update:
+            if let hitIndex = _ds.index(of: device){
+                let oldDev = _ds[hitIndex]
+                if oldDev.friendlyName != device.friendlyName{
+                    _ds.replaceSubrange(hitIndex..<hitIndex+1, with: [device])
+                    _tbv.reloadData()
+                }
+            }else{
+                _ds.append(device)
+                _tbv.reloadData()
+            }
         }
     }
 }
