@@ -33,17 +33,17 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     func onDeviceEvent(event: DeviceEvent, device: RendererDevice) {
-//        switch event {
-//        case .add:
-//            if !_ds.contains(device){
-//                _ds.append(device)
-//            }
-//        case .invalid, .remove:
-//            if let hitIndex = _ds.index(of: device){
-//
-//            }
-//        case .update:
-//        }
+        switch event {
+        case .add:
+            if !_ds.contains(device){
+                _ds.append(device)
+            }
+        case .invalid, .remove:
+            if let hitIndex = _ds.index(of: device){
+
+            }
+        case .update:
+        }
     }
 }
 
