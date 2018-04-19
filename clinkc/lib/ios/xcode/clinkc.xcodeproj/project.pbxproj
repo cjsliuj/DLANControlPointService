@@ -2053,7 +2053,6 @@
 				HEADER_SEARCH_PATHS = (
 					../../../wrapper/objc,
 					../../../std/av/include,
-					"$(SDKROOT)/usr/include/libxml2",
 					../../../include,
 					../../../std/av/wrapper/objc,
 				);
@@ -2079,7 +2078,6 @@
 				HEADER_SEARCH_PATHS = (
 					../../../wrapper/objc,
 					../../../std/av/include,
-					"$(SDKROOT)/usr/include/libxml2",
 					../../../include,
 					../../../std/av/wrapper/objc,
 				);

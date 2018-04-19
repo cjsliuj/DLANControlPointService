@@ -10,7 +10,8 @@
 		C403AE6620888ABD0050A94E /* DLNAControlPointService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49A3E382085D28200FC6053 /* DLNAControlPointService.swift */; };
 		C403AE6B20888ABD0050A94E /* DLANControlPointService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DDB208490C200EC289F /* DLANControlPointService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C403AE8820888E6A0050A94E /* libclinkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C403AE7520888ABE0050A94E /* libclinkc.a */; };
-		C403AE8E20888F0C0050A94E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C403AE8620888BD00050A94E /* libxml2.tbd */; };
+		C403AEB020889A990050A94E /* libexpat.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C403AEAF20889A990050A94E /* libexpat.tbd */; };
+		C403AEB620889D530050A94E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C49A3DBE2085C93500FC6053 /* libxml2.tbd */; };
 		C47EEE9C208874DB00E4AFD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EEE9B208874DB00E4AFD1 /* AppDelegate.swift */; };
 		C47EEE9E208874DB00E4AFD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EEE9D208874DB00E4AFD1 /* ViewController.swift */; };
 		C47EEEA1208874DB00E4AFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47EEE9F208874DB00E4AFD1 /* Main.storyboard */; };
@@ -20,7 +21,6 @@
 		C47EEEB320887BE900E4AFD1 /* DLANControlPointService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4878DD8208490C200EC289F /* DLANControlPointService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C4878DDD208490C200EC289F /* DLANControlPointService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DDB208490C200EC289F /* DLANControlPointService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49A3DBD2085C8FC00FC6053 /* libclinkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4878DE82084910900EC289F /* libclinkc.a */; };
-		C49A3DBF2085C93500FC6053 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C49A3DBE2085C93500FC6053 /* libxml2.tbd */; };
 		C49A3E392085D28200FC6053 /* DLNAControlPointService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49A3E382085D28200FC6053 /* DLNAControlPointService.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +81,7 @@
 		C403AE7220888ABE0050A94E /* DLANControlPointService copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DLANControlPointService copy-Info.plist"; path = "/Users/jerry/Desktop/DLANControlPointService/DLANControlPointService copy-Info.plist"; sourceTree = "<absolute>"; };
 		C403AE8620888BD00050A94E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
 		C403AE8A20888EA30050A94E /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libxml2.2.tbd; sourceTree = DEVELOPER_DIR; };
+		C403AEAF20889A990050A94E /* libexpat.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libexpat.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libexpat.tbd; sourceTree = DEVELOPER_DIR; };
 		C47EEE99208874DB00E4AFD1 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47EEE9B208874DB00E4AFD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C47EEE9D208874DB00E4AFD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C403AE8E20888F0C0050A94E /* libxml2.tbd in Frameworks */,
+				C403AEB020889A990050A94E /* libexpat.tbd in Frameworks */,
 				C403AE8820888E6A0050A94E /* libclinkc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49A3DBF2085C93500FC6053 /* libxml2.tbd in Frameworks */,
+				C403AEB620889D530050A94E /* libxml2.tbd in Frameworks */,
 				C49A3DBD2085C8FC00FC6053 /* libclinkc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,6 +186,7 @@
 		C49A3DBC2085C8FC00FC6053 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C403AEAF20889A990050A94E /* libexpat.tbd */,
 				C403AE8A20888EA30050A94E /* libxml2.2.tbd */,
 				C403AE8620888BD00050A94E /* libxml2.tbd */,
 				C49A3DBE2085C93500FC6053 /* libxml2.tbd */,

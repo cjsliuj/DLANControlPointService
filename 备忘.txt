@@ -22,3 +22,8 @@
 三方库更改点
 CGUpnpControlPoint 初始化方法中，将 start 方法的调用去删除， 为了方便项目中可以更好的控制
 CGUpnpDevice 中添加了 printXMLString 用于打印日志 方便调试
+
+
+
+注意：
+macos framework 需要 link 的xml解析库是 libexpat 不是libxml2
