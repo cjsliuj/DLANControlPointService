@@ -16,8 +16,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         _tbv.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        //首先需要启动（将当前设备作为 Control Point这个角色）
         DLNAControlPointService.share.start { (isStartAsControlPointSuccess) in
-            
+            assert(isStartAsControlPointSuccess, "启动失败")
         }
     }
     @IBAction func onClickSearch(_ sender: Any) {
@@ -39,8 +40,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        _ds[indexPath.row].playAVWithURL(url: "http://192.168.24.53:8080/video/2.rmvb") { (isPerformPlayActionSuc) in
-            
+        //这里的url 必须是个远程地址
+        _ds[indexPath.row].playAVWithURL(url: "http://192.168.24.53:8080/video/2.rmvb") { (isPerformPlayActionSuccess) in
+            assert(isPerformPlayActionSuccess, "播放失败")
         }
     }
     func onDeviceEvent(event: DeviceEvent, device: RendererDevice) {
@@ -67,6 +69,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                 _tbv.reloadData()
             }
         }
+    }
+    deinit {
+        DLNAControlPointService.share.stop()
     }
 }
 
