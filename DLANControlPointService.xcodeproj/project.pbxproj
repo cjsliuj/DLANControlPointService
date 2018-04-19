@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C47EEE9C208874DB00E4AFD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EEE9B208874DB00E4AFD1 /* AppDelegate.swift */; };
+		C47EEE9E208874DB00E4AFD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47EEE9D208874DB00E4AFD1 /* ViewController.swift */; };
+		C47EEEA1208874DB00E4AFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47EEE9F208874DB00E4AFD1 /* Main.storyboard */; };
+		C47EEEA3208874DD00E4AFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47EEEA2208874DD00E4AFD1 /* Assets.xcassets */; };
+		C47EEEA6208874DD00E4AFD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47EEEA4208874DD00E4AFD1 /* LaunchScreen.storyboard */; };
 		C4878DDD208490C200EC289F /* DLANControlPointService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4878DDB208490C200EC289F /* DLANControlPointService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49A3DBD2085C8FC00FC6053 /* libclinkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4878DE82084910900EC289F /* libclinkc.a */; };
 		C49A3DBF2085C93500FC6053 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C49A3DBE2085C93500FC6053 /* libxml2.tbd */; };
@@ -31,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C47EEE99208874DB00E4AFD1 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47EEE9B208874DB00E4AFD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C47EEE9D208874DB00E4AFD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C47EEEA0208874DB00E4AFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C47EEEA2208874DD00E4AFD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47EEEA5208874DD00E4AFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47EEEA7208874DD00E4AFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4878DD8208490C200EC289F /* DLANControlPointService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLANControlPointService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4878DDB208490C200EC289F /* DLANControlPointService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLANControlPointService.h; sourceTree = "<group>"; };
 		C4878DDC208490C200EC289F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C47EEE96208874DB00E4AFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4878DD4208490C200EC289F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,11 +72,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C47EEE9A208874DB00E4AFD1 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C47EEE9B208874DB00E4AFD1 /* AppDelegate.swift */,
+				C47EEE9D208874DB00E4AFD1 /* ViewController.swift */,
+				C47EEE9F208874DB00E4AFD1 /* Main.storyboard */,
+				C47EEEA2208874DD00E4AFD1 /* Assets.xcassets */,
+				C47EEEA4208874DD00E4AFD1 /* LaunchScreen.storyboard */,
+				C47EEEA7208874DD00E4AFD1 /* Info.plist */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		C4878DCE208490C200EC289F = {
 			isa = PBXGroup;
 			children = (
 				C49A3E3A2085D2FE00FC6053 /* 备忘.txt */,
 				C4878DDA208490C200EC289F /* DLANControlPointService */,
+				C47EEE9A208874DB00E4AFD1 /* Demo */,
 				C4878DD9208490C200EC289F /* Products */,
 				C49A3DBC2085C8FC00FC6053 /* Frameworks */,
 			);
@@ -67,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				C4878DD8208490C200EC289F /* DLANControlPointService.framework */,
+				C47EEE99208874DB00E4AFD1 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +146,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		C47EEE98208874DB00E4AFD1 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47EEEAA208874DD00E4AFD1 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				C47EEE95208874DB00E4AFD1 /* Sources */,
+				C47EEE96208874DB00E4AFD1 /* Frameworks */,
+				C47EEE97208874DB00E4AFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = C47EEE99208874DB00E4AFD1 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C4878DD7208490C200EC289F /* DLANControlPointService */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4878DE0208490C200EC289F /* Build configuration list for PBXNativeTarget "DLANControlPointService" */;
@@ -138,9 +189,13 @@
 		C4878DCF208490C200EC289F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = jerry;
 				TargetAttributes = {
+					C47EEE98208874DB00E4AFD1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					C4878DD7208490C200EC289F = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
@@ -153,6 +208,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C4878DCE208490C200EC289F;
 			productRefGroup = C4878DD9208490C200EC289F /* Products */;
@@ -166,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				C4878DD7208490C200EC289F /* DLANControlPointService */,
+				C47EEE98208874DB00E4AFD1 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +238,16 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C47EEE97208874DB00E4AFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47EEEA6208874DD00E4AFD1 /* LaunchScreen.storyboard in Resources */,
+				C47EEEA3208874DD00E4AFD1 /* Assets.xcassets in Resources */,
+				C47EEEA1208874DB00E4AFD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4878DD6208490C200EC289F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +274,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C47EEE95208874DB00E4AFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47EEE9E208874DB00E4AFD1 /* ViewController.swift in Sources */,
+				C47EEE9C208874DB00E4AFD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4878DD3208490C200EC289F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,7 +301,60 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		C47EEE9F208874DB00E4AFD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47EEEA0208874DB00E4AFD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C47EEEA4208874DD00E4AFD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47EEEA5208874DD00E4AFD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		C47EEEA8208874DD00E4AFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C47EEEA9208874DD00E4AFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.jerry.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C4878DDE208490C200EC289F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,6 +557,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C47EEEAA208874DD00E4AFD1 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47EEEA8208874DD00E4AFD1 /* Debug */,
+				C47EEEA9208874DD00E4AFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C4878DD2208490C200EC289F /* Build configuration list for PBXProject "DLANControlPointService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
